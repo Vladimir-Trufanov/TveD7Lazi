@@ -1,0 +1,28 @@
+object frmGuide: TfrmGuide
+  Left = 487
+  Height = 300
+  Top = 261
+  Width = 530
+  Caption = 'frmGuide'
+  DesignTimePPI = 120
+  Menu = mm
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.12.0'
+  object mm: TMainMenu
+    Left = 20
+    Top = 30
+    object mmiLoadFrame: TMenuItem
+      Caption = 'Установить фрэйм'
+      OnClick = mmiLoadFrameClick
+    end
+    object mmiGetMessage: TMenuItem
+      Caption = 'Прочитать сообщение'
+      OnClick = mmiGetMessageClick
+    end
+    object mmiCloseFrame: TMenuItem
+      Caption = 'Убрать фрэйм'
+      OnClick = mmiCloseFrameClick
+    end
+  end
+end

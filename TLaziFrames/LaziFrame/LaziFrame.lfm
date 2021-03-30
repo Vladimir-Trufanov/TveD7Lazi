@@ -1,0 +1,27 @@
+object frameLazi: TframeLazi
+  Left = 0
+  Height = 35
+  Top = 0
+  Width = 430
+  Align = alBottom
+  ClientHeight = 35
+  ClientWidth = 430
+  Color = clDefault
+  OnEnter = FrameEnter
+  OnExit = FrameExit
+  ParentColor = False
+  TabOrder = 0
+  DesignLeft = 597
+  DesignTop = 226
+  object Panel1: TPanel
+    Left = 0
+    Height = 35
+    Top = 0
+    Width = 430
+    Align = alClient
+    Caption = 'Panel1'
+    Color = clInactiveCaption
+    ParentColor = False
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,79 @@
+object frameNumgress: TframeNumgress
+  Left = 0
+  Height = 35
+  Top = 0
+  Width = 430
+  Align = alBottom
+  ClientHeight = 35
+  ClientWidth = 430
+  OnClick = FrameClick
+  OnEnter = FrameEnter
+  OnExit = FrameExit
+  TabOrder = 0
+  DesignLeft = 667
+  DesignTop = 500
+  object pnlBar: TPanel
+    Left = 0
+    Height = 20
+    Top = 15
+    Width = 430
+    Align = alBottom
+    ClientHeight = 20
+    ClientWidth = 430
+    TabOrder = 0
+    object stat: TStaticText
+      Left = 1
+      Height = 18
+      Top = 1
+      Width = 49
+      Align = alLeft
+      Alignment = taCenter
+      BorderStyle = sbsSunken
+      Caption = '100%'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Pitch = fpFixed
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+    object pbar: TProgressBar
+      Left = 50
+      Height = 18
+      Top = 1
+      Width = 379
+      Align = alClient
+      TabOrder = 1
+    end
+  end
+  object pnlText: TPanel
+    Left = 0
+    Height = 16
+    Top = -1
+    Width = 430
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 16
+    ClientWidth = 430
+    TabOrder = 1
+    object st: TStaticText
+      Left = 0
+      Height = 16
+      Top = 0
+      Width = 430
+      Align = alClient
+      BorderStyle = sbsSunken
+      Caption = 'Staaaaaaaati  iiic  Tetttttt  tttttxt1'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Pitch = fpFixed
+      Font.Quality = fqDraft
+      Font.Style = [fsBold, fsItalic]
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+end
