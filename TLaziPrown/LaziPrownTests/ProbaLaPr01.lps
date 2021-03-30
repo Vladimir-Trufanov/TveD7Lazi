@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="18">
+      <Unit0>
+        <Filename Value="ProbaLaPr01.pas"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="51" Y="13"/>
+        <UsageCount Value="37"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ProbaLaPr01Frm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmProbaLaPr01"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="96" Y="21"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\ArrayFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmArray"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ArrayFrm"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="76" Y="310"/>
+        <UsageCount Value="37"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\gaFileNamesUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gaFileNamesUni"/>
+        <IsVisibleTab Value="True"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="58" Y="1"/>
+        <UsageCount Value="34"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\FilesDirUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FilesDirUni"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="104"/>
+        <CursorPos X="10" Y="52"/>
+        <UsageCount Value="29"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\LaziprownAlerts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LaziprownAlerts"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="49" Y="35"/>
+        <UsageCount Value="24"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\TellmeFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <UnitName Value="TellmeFrm"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="217"/>
+        <CursorPos X="24" Y="148"/>
+        <UsageCount Value="22"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\TellmeUni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="42" Y="35"/>
+        <UsageCount Value="24"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\IniMesUni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="44" Y="30"/>
+        <UsageCount Value="35"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\ArrayLibo.pas"/>
+        <UnitName Value="ArrayLib"/>
+        <TopLine Value="303"/>
+        <CursorPos Y="326"/>
+        <UsageCount Value="11"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <TopLine Value="76"/>
+        <CursorPos Y="98"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\laztoapk\LazapkTools\FilesDir\FilesDirUni.pas"/>
+        <TopLine Value="119"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\TLaziTools\TLoger\Loger.pas"/>
+        <WindowIndex Value="1"/>
+        <UsageCount Value="13"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\inc\varianth.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="4" Y="29"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\LaziprownOutfit.pas"/>
+        <UnitName Value="LaziPrownOutfit"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="6" Y="11"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\AtUni.pas"/>
+        <UnitName Value="AtUni"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\FulldnUni.pas"/>
+        <UnitName Value="FulldnUni"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\SubstrUni.pas"/>
+        <UnitName Value="SubstrUni"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

@@ -1,0 +1,23 @@
+object frmArray: TfrmArray
+  Left = 363
+  Height = 240
+  Top = 150
+  Width = 603
+  Caption = 'frmArray'
+  ClientHeight = 240
+  ClientWidth = 603
+  LCLVersion = '1.7'
+  object lb: TListBox
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 603
+    Align = alClient
+    Items.Strings = (
+      'qwer'
+      'rrrr'
+    )
+    ItemHeight = 15
+    TabOrder = 0
+  end
+end

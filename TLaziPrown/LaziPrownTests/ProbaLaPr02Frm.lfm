@@ -1,0 +1,87 @@
+object frmProbaLaPr02: TfrmProbaLaPr02
+  Left = 488
+  Height = 237
+  Top = 253
+  Width = 455
+  Caption = 'TLaziPrown: блок тестов №2'
+  ClientHeight = 237
+  ClientWidth = 455
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  LCLVersion = '1.2.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 237
+    Top = 0
+    Width = 170
+    Align = alLeft
+    ClientHeight = 237
+    ClientWidth = 170
+    Color = 15334883
+    ParentColor = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 16
+      Height = 20
+      Top = 16
+      Width = 139
+      Caption = 'Tellme, Messhelp'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object btnShowmessage: TButton
+      Left = 16
+      Height = 25
+      Top = 48
+      Width = 139
+      Caption = 'ShowMessage'
+      OnClick = btnShowmessageClick
+      TabOrder = 0
+    end
+    object btnTellme: TButton
+      Left = 16
+      Height = 25
+      Top = 80
+      Width = 139
+      Caption = 'Tellme'
+      OnClick = btnTellmeClick
+      TabOrder = 1
+    end
+    object btnqueryTerminate: TButton
+      Left = 16
+      Height = 25
+      Top = 112
+      Width = 139
+      Caption = 'queryTerminate'
+      OnClick = btnqueryTerminateClick
+      TabOrder = 2
+    end
+    object btnnoTerminate: TButton
+      Left = 16
+      Height = 25
+      Top = 144
+      Width = 139
+      Caption = 'noTerminate'
+      OnClick = btnnoTerminateClick
+      TabOrder = 3
+    end
+    object btnyesTerminate: TButton
+      Left = 16
+      Height = 25
+      Top = 176
+      Width = 139
+      Caption = 'yesTerminate'
+      OnClick = btnyesTerminateClick
+      TabOrder = 4
+    end
+  end
+end
