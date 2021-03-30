@@ -1,0 +1,63 @@
+object frmViewPS: TfrmViewPS
+  Left = 723
+  Height = 240
+  Top = 260
+  Width = 320
+  Caption = 'frmViewPS'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.2.4.0'
+  object dbn: TDBNavigator
+    Left = 0
+    Height = 25
+    Top = 215
+    Width = 320
+    Align = alBottom
+    BevelOuter = bvNone
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 25
+    ClientWidth = 320
+    Options = []
+    TabOrder = 0
+  end
+  object pnlLeft: TPanel
+    Left = 0
+    Height = 215
+    Top = 0
+    Width = 170
+    Align = alLeft
+    TabOrder = 1
+  end
+  object spl: TSplitter
+    Left = 170
+    Height = 215
+    Top = 0
+    Width = 5
+  end
+  object pnlRight: TPanel
+    Left = 175
+    Height = 215
+    Top = 0
+    Width = 145
+    Align = alClient
+    ClientHeight = 215
+    ClientWidth = 145
+    TabOrder = 3
+    object Button1: TButton
+      Left = 32
+      Height = 25
+      Top = 176
+      Width = 75
+      Caption = 'Button1'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+  end
+end

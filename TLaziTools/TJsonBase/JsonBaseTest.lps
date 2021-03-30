@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="JsonBaseTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="21" Y="21"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="jsonbasetestfrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="JsonBaseTestFrm"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="54"/>
+        <CursorPos X="47" Y="55"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Docsy\docsy\bdUni.pas"/>
+        <ComponentName Value="bd"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="13" Y="31"/>
+        <UsageCount Value="11"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\zeosdbo\src\component\ZConnection.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\zeosdbo\src\core\ZClasses.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\zeosdbo\src\component\ZAbstractConnection.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="567"/>
+        <CursorPos X="42" Y="431"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\zeosdbo\src\component\ZComponent.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\zeosdbo\src\Zeos.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\zeosdbo\src\plain\ZPlainSqLiteDriver.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1355"/>
+        <CursorPos X="30" Y="1371"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\zeosdbo\src\plain\ZPlainFirebirdDriver.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1122"/>
+        <CursorPos X="45" Y="1145"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\ZEOSDBO\src\plain\ZPlainLoader.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="226"/>
+        <CursorPos Y="237"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\ZEOSDBO\src\dbc\ZDbcInterbase6Utils.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="799"/>
+        <CursorPos X="86" Y="816"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="old\DatasetToJsonstringUni.pas"/>
+        <UnitName Value="DatasetToJsonStringUni"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="44" Y="84"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\Lazarus164.64\fpc\3.0.2\source\rtl\objpas\typinfo.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="411"/>
+        <CursorPos X="10" Y="424"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\Lazarus164.64\fpc\3.0.2\source\packages\fcl-db\src\base\db.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="421"/>
+        <CursorPos X="14" Y="433"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\Lazarus164.64\fpc\3.0.2\source\rtl\objpas\sysutils\sysinth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\ZEOSDBO\src\core\ZMessages.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1980"/>
+        <CursorPos X="3" Y="1993"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="JsonBaseTest.lpr"/>
+        <Caret Line="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="JsonBaseTest.lpr"/>
+        <Caret Line="21" Column="21"/>
+      </Position2>
+      <Position3>
+        <Filename Value="jsonbasetestfrm.pas"/>
+        <Caret Line="90" Column="7" TopLine="69"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\ZEOSDBO\src\plain\ZPlainLoader.pas"/>
+        <Caret Line="237" TopLine="226"/>
+      </Position4>
+      <Position5>
+        <Filename Value="jsonbasetestfrm.pas"/>
+        <Caret Line="75" Column="5" TopLine="69"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

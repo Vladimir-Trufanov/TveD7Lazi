@@ -1,0 +1,8 @@
+/TLaziFrames/GuideFrame/backup
+/TLaziFrames/GuideFrame/*.exe
+/TLaziFrames/GuideFrame/lib/i386-win32
+/MagicPoint/*.o
+/MagicPoint/*.ppu
+/MagicPoint/*.compiled
+/MagicPoint/*.or
+/MagicPoint/*.a

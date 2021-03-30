@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="LempeZiwTest"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="LempeZiwTest.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="LempeZiwTestFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LempeZiwTestFrm"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\TLempeZiw\LempeZiwClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LempeZiwClass"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\LazitoolsOutfit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LazitoolsOutfit"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\TLaziPrown\ArrayFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmArray"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\TErrEvent\ErrEventClass.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\TLempeZiw\ViewStringlistFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStringlist"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\TSlateCodes\ConvertUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="convertuni"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\TLempeZiw\CompressUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CompressUni"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\TFileReader\FileReaderClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileReaderClass"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DictionaryUni"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\TFileWriter\FileWriterClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileWriterClass"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\TLempeZiw\Code10to12Uni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Code10to12Uni"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RecoverUni"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\TLempeZiw\Code12to10Uni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Code12to10Uni"/>
+      </Unit14>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="LempeZiwTest"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\TLempeZiw;..;..\..\TLaziPrown;..\TErrEvent;..\TSlateCodes;..\TFileWriter;..\TFileReader"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

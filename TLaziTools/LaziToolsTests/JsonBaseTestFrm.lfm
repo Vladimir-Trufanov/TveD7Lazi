@@ -1,0 +1,146 @@
+object Form1: TForm1
+  Left = 633
+  Height = 436
+  Top = 341
+  Width = 1039
+  Caption = 'Form1'
+  ClientHeight = 436
+  ClientWidth = 1039
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 413
+    Width = 1039
+    Panels = <>
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 363
+    Width = 1039
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 1039
+    TabOrder = 1
+    object Button1: TButton
+      Left = 8
+      Height = 25
+      Top = 16
+      Width = 152
+      Caption = 'Загрузить набор данных'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 168
+      Height = 25
+      Top = 16
+      Width = 80
+      Caption = 'Закрыть НД'
+      OnClick = Button2Click
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 256
+      Height = 25
+      Top = 16
+      Width = 144
+      Caption = 'Набор данных в строку'
+      OnClick = Button3Click
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 408
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'Button4'
+      OnClick = Button4Click
+      TabOrder = 3
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 363
+    Top = 0
+    Width = 371
+    Align = alLeft
+    ClientHeight = 363
+    ClientWidth = 371
+    TabOrder = 2
+    object DBGrid1: TDBGrid
+      Left = 1
+      Height = 361
+      Top = 1
+      Width = 369
+      Align = alClient
+      Color = clWindow
+      Columns = <>
+      TabOrder = 0
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 371
+    Height = 363
+    Top = 0
+    Width = 5
+  end
+  object Panel3: TPanel
+    Left = 376
+    Height = 363
+    Top = 0
+    Width = 663
+    Align = alClient
+    ClientHeight = 363
+    ClientWidth = 663
+    TabOrder = 4
+    object mem: TMemo
+      Left = 1
+      Height = 361
+      Top = 1
+      Width = 661
+      Align = alClient
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -11
+      Font.Name = 'Courier New'
+      Font.Pitch = fpFixed
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      Lines.Strings = (
+        'mem'
+      )
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    left = 32
+    top = 144
+  end
+  object DataSource1: TDataSource
+    left = 32
+    top = 81
+  end
+  object dset: TSqlite3Dataset
+    left = 121
+    top = 81
+  end
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    LogEvents = []
+    Options = []
+    left = 232
+    top = 81
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    left = 121
+    top = 144
+  end
+end

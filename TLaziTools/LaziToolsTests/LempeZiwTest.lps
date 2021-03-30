@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="50">
+      <Unit0>
+        <Filename Value="LempeZiwTest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="31" Y="22"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="LempeZiwTestFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LempeZiwTestFrm"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="108"/>
+        <CursorPos X="38" Y="124"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\TLempeZiw\LempeZiwClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LempeZiwClass"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="54"/>
+        <CursorPos X="30" Y="68"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\LazitoolsOutfit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LazitoolsOutfit"/>
+        <EditorIndex Value="11"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="26" Y="32"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\TLaziPrown\ArrayFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmArray"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="312"/>
+        <CursorPos X="9" Y="328"/>
+        <UsageCount Value="200"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\TErrEvent\ErrEventClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="19"/>
+        <CursorPos Y="45"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\TLempeZiw\ViewStringlistFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStringlist"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="30" Y="39"/>
+        <UsageCount Value="200"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\TSlateCodes\ConvertUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="convertuni"/>
+        <WindowIndex Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\TLempeZiw\CompressUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CompressUni"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="124" Y="114"/>
+        <UsageCount Value="144"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\TFileReader\FileReaderClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileReaderClass"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="61"/>
+        <CursorPos X="6" Y="114"/>
+        <UsageCount Value="142"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DictionaryUni"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="27"/>
+        <UsageCount Value="128"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\TFileWriter\FileWriterClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileWriterClass"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="94"/>
+        <CursorPos X="53" Y="117"/>
+        <UsageCount Value="117"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\TLempeZiw\Code10to12Uni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Code10to12Uni"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="114"/>
+        <CursorPos X="1" Y="128"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RecoverUni"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="96"/>
+        <CursorPos X="18" Y="120"/>
+        <UsageCount Value="97"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\TLempeZiw\Code12to10Uni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Code12to10Uni"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="141"/>
+        <CursorPos X="9" Y="152"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\TFileWriter\filewriterclassold.pas"/>
+        <UnitName Value="filewriterclassOld"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="147"/>
+        <CursorPos X="3" Y="35"/>
+        <UsageCount Value="165"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\TLempeZiw\Chr8to12Uni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="42"/>
+        <CursorPos Y="15"/>
+        <UsageCount Value="143"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\TLempeZiw\unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="3" Y="122"/>
+        <UsageCount Value="25"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus124.64\fpc\2.6.4\source\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="18" Y="65"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\TFidirCheck\FidirCheckClass.pas"/>
+        <UnitName Value="FidirCheckClass"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="28" Y="4"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\TLZWold\unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="140"/>
+        <CursorPos Y="166"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="ErrEventtestFrm.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="42"/>
+        <CursorPos Y="66"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\TErrEvent\erANYMesUni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="107" Y="61"/>
+        <UsageCount Value="98"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\TErrEvent\ErrEventAlerts.pas"/>
+        <UnitName Value="ErreventAlerts"/>
+        <WindowIndex Value="1"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="70"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\win32\system.pp"/>
+        <UnitName Value="System"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos Y="48"/>
+        <UsageCount Value="8"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\inc\ustringh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="79"/>
+        <CursorPos X="10" Y="150"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="87"/>
+        <CursorPos X="3" Y="103"/>
+        <UsageCount Value="6"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\objpas\sysutils\sysstr.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="813"/>
+        <CursorPos X="10" Y="829"/>
+        <UsageCount Value="9"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\objpas\sysutils\sysansih.inc"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="10" Y="18"/>
+        <UsageCount Value="9"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\packages\rtl-objpas\src\inc\variants.pp"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="10" Y="88"/>
+        <UsageCount Value="3"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\inc\varianth.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="4" Y="57"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="110"/>
+        <CursorPos X="3" Y="124"/>
+        <UsageCount Value="4"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\inc\heaph.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="10" Y="96"/>
+        <UsageCount Value="1"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="18" Y="115"/>
+        <UsageCount Value="4"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\TLaziPrown\LaziprownAlerts.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="11"/>
+        <UsageCount Value="4"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\TLaziPrown\LaziprownOutfit.pas"/>
+        <UnitName Value="LaziPrownOutfit"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="26" Y="10"/>
+        <UsageCount Value="4"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\TSlateCodes\SlateCodesFrm.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SlateCodesFrm"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\TLoger\Loger.pas"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="16" Y="4"/>
+        <UsageCount Value="4"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\TFileWriter\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="13" Y="21"/>
+        <UsageCount Value="14"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\Sensoria\server\GoProgressUni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="4"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\TLaziPrown\TellmeFrm.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="19" Y="81"/>
+        <UsageCount Value="9"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="C:\laztoapk\downloads\laz4android\fpc\3.1.1\source\rtl\objpas\math.pp"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="353"/>
+        <CursorPos X="10" Y="369"/>
+        <UsageCount Value="5"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="845"/>
+        <CursorPos X="10" Y="865"/>
+        <UsageCount Value="8"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\inc\objpash.inc"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="174"/>
+        <CursorPos X="22" Y="194"/>
+        <UsageCount Value="8"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\TD7TOOLS\TBaseMaker\BaseMaker.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="34"/>
+        <UsageCount Value="9"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\TD7TOOLS\TBaseMaker\bmClearIndexByteUni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="69"/>
+        <CursorPos X="9" Y="88"/>
+        <UsageCount Value="9"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\TD7TOOLS\TErrEvent\erTVEMesUni.pas"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="9"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\TD7TOOLS\TErrEvent\ErrEvent.pas"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="3" Y="35"/>
+        <UsageCount Value="9"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="ашд\TLaziTools\TLempeZiw\code10to12uni.pas"/>
+        <UnitName Value="Code10to12Uni"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="95"/>
+        <CursorPos Y="121"/>
+        <UsageCount Value="9"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\TFidirCheck\MakeFilesDirarrayUni.pas"/>
+        <UnitName Value="MakeFilesDirarrayUni"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="104" Y="69"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit49>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="136" Column="19" TopLine="116"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="113" Column="27" TopLine="93"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="96" Column="27" TopLine="89"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="152" Column="4" TopLine="131"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <Caret Line="120" Column="5" TopLine="96"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="85" Column="11" TopLine="73"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="152" Column="5" TopLine="130"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="113" Column="26" TopLine="93"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="85" Column="11" TopLine="76"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="92" Column="27" TopLine="76"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="109" Column="27" TopLine="76"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <Caret Line="120" Column="35" TopLine="90"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="148" Column="5" TopLine="128"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="92" Column="27" TopLine="72"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="109" Column="27" TopLine="76"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <Caret Line="120" Column="35" TopLine="90"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="148" Column="5" TopLine="128"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="109" Column="27" TopLine="89"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="92" Column="27" TopLine="84"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <Caret Line="120" Column="29" TopLine="90"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="148" Column="5" TopLine="128"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="92" Column="27" TopLine="72"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="109" Column="27" TopLine="76"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <Caret Line="120" Column="29" TopLine="90"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\TLempeZiw\DictionaryUni.pas"/>
+        <Caret Line="148" Column="5" TopLine="128"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\TLempeZiw\RecoverUni.pas"/>
+        <Caret Line="120" Column="35" TopLine="90"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\TLempeZiw\LempeZiwClass.pas"/>
+        <Caret Line="95" Column="3" TopLine="92"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\TFidirCheck\FidirCheckClass.pas"/>
+        <Caret Line="4" Column="28" TopLine="70"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\LazitoolsOutfit.pas"/>
+        <Caret Line="32" Column="15" TopLine="16"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\TLempeZiw\LempeZiwClass.pas"/>
+        <Caret Line="26" Column="122" TopLine="103"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="SOExample.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="23"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="soexamplefrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form8"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SOExampleFrm"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="105"/>
+        <CursorPos Y="119"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Superobject\SuperObject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="superobject"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="672"/>
+        <CursorPos X="20" Y="686"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="main.pas"/>
+        <ComponentName Value="Form8"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="173"/>
+        <CursorPos Y="197"/>
+        <UsageCount Value="11"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <TopLine Value="65"/>
+        <CursorPos X="10" Y="80"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\objpas\sysutils\sysstr.inc"/>
+        <TopLine Value="210"/>
+        <CursorPos X="2" Y="222"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="177"/>
+        <CursorPos X="23" Y="192"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="975"/>
+        <CursorPos X="19" Y="995"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\TLaziTools\LaziToolsTests\FidirTest.pas"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\TLaziTools\TFileReader\FileReaderClass.pas"/>
+        <TopLine Value="112"/>
+        <UsageCount Value="12"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus124.32\fpc\2.6.4\source\rtl\objpas\classes\streams.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="776"/>
+        <CursorPos X="3" Y="829"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit10>
+    </Units>
+    <JumpHistory Count="15" HistoryIndex="14">
+      <Position1>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="81" Column="67" TopLine="64"/>
+      </Position1>
+      <Position2>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="89" Column="16" TopLine="85"/>
+      </Position2>
+      <Position3>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="53" Column="26" TopLine="53"/>
+      </Position3>
+      <Position4>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="72" Column="74" TopLine="51"/>
+      </Position4>
+      <Position5>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="91" Column="20" TopLine="89"/>
+      </Position5>
+      <Position6>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="98" Column="54" TopLine="83"/>
+      </Position6>
+      <Position7>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="100" Column="14" TopLine="85"/>
+      </Position7>
+      <Position8>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="96" Column="4" TopLine="79"/>
+      </Position8>
+      <Position9>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="102" Column="6" TopLine="98"/>
+      </Position9>
+      <Position10>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="101" Column="10" TopLine="72"/>
+      </Position10>
+      <Position11>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="93" TopLine="78"/>
+      </Position11>
+      <Position12>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="103" Column="58" TopLine="87"/>
+      </Position12>
+      <Position13>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="116" Column="33" TopLine="108"/>
+      </Position13>
+      <Position14>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="127" TopLine="124"/>
+      </Position14>
+      <Position15>
+        <Filename Value="soexamplefrm.pas"/>
+        <Caret Line="134" TopLine="128"/>
+      </Position15>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

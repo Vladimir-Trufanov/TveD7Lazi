@@ -1,0 +1,145 @@
+object Form1: TForm1
+  Left = 271
+  Height = 475
+  Top = 273
+  Width = 1178
+  Caption = 'JsonBaseTest'
+  ClientHeight = 475
+  ClientWidth = 1178
+  LCLVersion = '1.8.0.6'
+  object pnlButtons: TPanel
+    Left = 0
+    Height = 50
+    Top = 402
+    Width = 1178
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 1178
+    TabOrder = 0
+    object btnConnect: TButton
+      Left = 8
+      Height = 25
+      Top = 16
+      Width = 107
+      Caption = 'Подключиться'
+      OnClick = btnConnectClick
+      TabOrder = 0
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 452
+    Width = 1178
+    Panels = <>
+  end
+  object pnlGrid: TPanel
+    Left = 0
+    Height = 402
+    Top = 0
+    Width = 379
+    Align = alLeft
+    ClientHeight = 402
+    ClientWidth = 379
+    TabOrder = 2
+    object dbg: TDBGrid
+      Left = 1
+      Height = 400
+      Top = 1
+      Width = 377
+      Align = alClient
+      Color = clWindow
+      Columns = <>
+      DataSource = DataSource1
+      TabOrder = 0
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 379
+    Height = 402
+    Top = 0
+    Width = 5
+  end
+  object pnlTables: TPanel
+    Left = 384
+    Height = 402
+    Top = 0
+    Width = 211
+    Align = alLeft
+    ClientHeight = 402
+    ClientWidth = 211
+    TabOrder = 4
+    object ListBox1: TListBox
+      Left = 1
+      Height = 400
+      Top = 1
+      Width = 209
+      Align = alClient
+      ItemHeight = 0
+      TabOrder = 0
+    end
+  end
+  object Splitter2: TSplitter
+    Left = 595
+    Height = 402
+    Top = 0
+    Width = 5
+  end
+  object pnlText: TPanel
+    Left = 600
+    Height = 402
+    Top = 0
+    Width = 578
+    Align = alClient
+    ClientHeight = 402
+    ClientWidth = 578
+    TabOrder = 6
+    object mem: TMemo
+      Left = 1
+      Height = 400
+      Top = 1
+      Width = 576
+      Align = alClient
+      Lines.Strings = (
+        'mem'
+      )
+      TabOrder = 0
+    end
+  end
+  object DocsConn: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    User = 'SYSDBA'
+    Password = 'masterkey'
+    left = 40
+    top = 112
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 3091
+    User = 'SYSDBA'
+    Password = 'mastekey'
+    Protocol = 'firebird-2.5'
+    left = 40
+    top = 296
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    Params = <>
+    left = 112
+    top = 296
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    left = 184
+    top = 296
+  end
+end

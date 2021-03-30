@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="JsonBaseTest"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="sqlite3laz"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SQLDBLaz"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="JsonBaseTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="JsonBaseTestFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="JsonBaseTestFrm"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\TJsonBase\DatasetToJsonstringUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DatasetToJsonStringUni"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\TJsonBase\JsonBaseClass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="JsonBaseClass"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\TJsonBase\JsonStringToDatasetUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="JsonStringToDatasetUni"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\TJsonBase\JsonToDatasetUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="JsonToDatasetUni"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\LazitoolsOutfit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LazitoolsOutfit"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="JsonToStringUni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="JsonToStringUni"/>
+      </Unit7>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="JsonBaseTest"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\TJsonBase;.."/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

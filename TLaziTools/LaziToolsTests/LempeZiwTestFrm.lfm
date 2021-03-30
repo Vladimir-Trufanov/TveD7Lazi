@@ -1,0 +1,149 @@
+object Form1: TForm1
+  Left = 518
+  Height = 687
+  Top = 79
+  Width = 604
+  Caption = 'LempeTest'
+  ClientHeight = 687
+  ClientWidth = 604
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.7'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 614
+    Width = 604
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 604
+    TabOrder = 0
+    object btnMakeCompress: TButton
+      Left = 376
+      Height = 25
+      Top = 16
+      Width = 104
+      Caption = 'MakeCompress'
+      OnClick = btnMakeCompressClick
+      TabOrder = 0
+    end
+    object btnMakeRecover: TButton
+      Left = 496
+      Height = 25
+      Top = 16
+      Width = 96
+      Caption = 'MakeRecover'
+      OnClick = btnMakeRecoverClick
+      TabOrder = 1
+    end
+    object btnRead: TButton
+      Left = 8
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'FileReader'
+      OnClick = btnReadClick
+      TabOrder = 2
+    end
+    object btnWriter: TButton
+      Left = 96
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'FileWriter'
+      OnClick = btnWriterClick
+      TabOrder = 3
+    end
+  end
+  object sb: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 664
+    Width = 604
+    Panels = <>
+  end
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Height = 20
+    Top = 594
+    Width = 604
+    Align = alBottom
+    TabOrder = 2
+  end
+  object mem: TMemo
+    Left = 0
+    Height = 386
+    Top = 208
+    Width = 260
+    Align = alLeft
+    Lines.Strings = (
+      'mem'
+    )
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 208
+    Top = 0
+    Width = 604
+    Align = alTop
+    ClientHeight = 208
+    ClientWidth = 604
+    TabOrder = 4
+    object lblMem: TLabel
+      Left = 8
+      Height = 15
+      Top = 184
+      Width = 47
+      Caption = 'Словарь'
+      ParentColor = False
+    end
+    object lblMemPress: TLabel
+      Left = 272
+      Height = 15
+      Top = 184
+      Width = 75
+      Caption = 'Сжатый текст'
+      ParentColor = False
+    end
+    object GroupBox1: TGroupBox
+      Left = 1
+      Height = 177
+      Top = 1
+      Width = 602
+      Align = alTop
+      Caption = 'Преобразование и проверка файлов'
+      ClientHeight = 157
+      ClientWidth = 598
+      TabOrder = 0
+      object btnLoad1251: TButton
+        Left = 8
+        Height = 25
+        Top = 8
+        Width = 336
+        Caption = 'Заархивировать файл CP1251 и восстановить без проверки'
+        OnClick = btnLoad1251Click
+        TabOrder = 0
+      end
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 260
+    Height = 386
+    Top = 208
+    Width = 5
+  end
+  object memPress: TMemo
+    Left = 265
+    Height = 386
+    Top = 208
+    Width = 339
+    Align = alClient
+    Lines.Strings = (
+      'memPress'
+    )
+    TabOrder = 6
+  end
+end

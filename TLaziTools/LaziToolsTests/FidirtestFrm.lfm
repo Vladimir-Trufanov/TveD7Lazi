@@ -1,0 +1,80 @@
+object frmFidirTest: TfrmFidirTest
+  Left = 856
+  Height = 442
+  Top = 288
+  Width = 612
+  Caption = 'Отладка FidirCheck'
+  ClientHeight = 442
+  ClientWidth = 612
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.2.4.0'
+  object mem: TMemo
+    Left = 0
+    Height = 314
+    Top = 128
+    Width = 612
+    Align = alClient
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 128
+    Top = 0
+    Width = 612
+    Align = alTop
+    Caption = 'GroupBox1'
+    ClientHeight = 110
+    ClientWidth = 608
+    TabOrder = 1
+    object btnLoadDir: TButton
+      Left = 14
+      Height = 25
+      Top = 8
+      Width = 122
+      Caption = '1. Выбрать каталог'
+      Enabled = False
+      OnClick = btnLoadDirClick
+      TabOrder = 0
+    end
+    object btnGetArray: TButton
+      Left = 14
+      Height = 25
+      Top = 40
+      Width = 176
+      Caption = '2. Загрузить массив списком'
+      Enabled = False
+      OnClick = btnGetArrayClick
+      TabOrder = 1
+    end
+    object btnPutArray: TButton
+      Left = 14
+      Height = 25
+      Top = 72
+      Width = 171
+      Caption = '3. Выгрузить массив в файл'
+      Enabled = False
+      OnClick = btnPutArrayClick
+      TabOrder = 2
+    end
+    object btnAll: TButton
+      Left = 224
+      Height = 25
+      Top = 37
+      Width = 75
+      Caption = 'Всё сразу!'
+      OnClick = btnAllClick
+      TabOrder = 3
+    end
+  end
+  object odLoadDir: TSelectDirectoryDialog
+    left = 400
+    top = 208
+  end
+end
