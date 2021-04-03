@@ -1,0 +1,147 @@
+object frmMagicPoint: TfrmMagicPoint
+  Left = 292
+  Height = 622
+  Top = 74
+  Width = 1068
+  Caption = 'frmMagicPoint'
+  ClientHeight = 597
+  ClientWidth = 1068
+  DesignTimePPI = 120
+  Menu = mm
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.12.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 29
+    Top = 467
+    Width = 1068
+    Panels = <>
+    ParentFont = False
+  end
+  object pnlLeft: TPanel
+    Left = 2
+    Height = 467
+    Top = 0
+    Width = 718
+    Align = alLeft
+    ParentFont = False
+    TabOrder = 1
+  end
+  object pnlRight: TPanel
+    Left = 720
+    Height = 467
+    Top = 0
+    Width = 348
+    Align = alClient
+    ClientHeight = 467
+    ClientWidth = 348
+    ParentFont = False
+    TabOrder = 2
+    object StaticText1: TStaticText
+      Left = 1
+      Height = 79
+      Top = 387
+      Width = 346
+      Align = alBottom
+      BorderStyle = sbsSunken
+      Caption = 'StaticText1'
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Panel1: TPanel
+      Left = 1
+      Height = 386
+      Top = 1
+      Width = 346
+      Align = alClient
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 99
+    Top = 496
+    Width = 1068
+    Align = alBottom
+    ClientHeight = 99
+    ClientWidth = 1068
+    ParentFont = False
+    TabOrder = 3
+    object lvLog: TListView
+      Left = 1
+      Height = 76
+      Top = -9
+      Width = 1482
+      Color = clMenu
+      Columns = <>
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object splitBottom: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 2
+    Top = 595
+    Width = 1068
+    Align = alBottom
+    Color = clWindowFrame
+    ParentColor = False
+    ResizeAnchor = akBottom
+  end
+  object splitLeft: TSplitter
+    Left = 0
+    Height = 467
+    Top = 0
+    Width = 2
+    Color = clWindowFrame
+    ParentColor = False
+  end
+  object mm: TMainMenu
+    Left = 80
+    Top = 90
+    object mmiActions: TMenuItem
+      Caption = 'Действия'
+      OnClick = mmiActionsClick
+      object mmiConnectingBase: TMenuItem
+        Caption = 'Подключиться к базе данных'
+      end
+      object mmiOpenTable: TMenuItem
+        Caption = 'Открыть таблицу'
+      end
+    end
+    object mmiSelectDisk: TMenuItem
+      Caption = 'Диск'
+      object mmiSelA: TMenuItem
+        Caption = 'A:'
+        OnClick = mmiSelAClick
+      end
+      object mmiSelC: TMenuItem
+        Caption = 'C:'
+        OnClick = mmiSelCClick
+      end
+      object mmiSelD: TMenuItem
+        Caption = 'D:'
+        OnClick = mmiSelDClick
+      end
+      object mmiSelZ: TMenuItem
+        Caption = 'Z:'
+        OnClick = mmiSelZClick
+      end
+    end
+    object mmiSettings: TMenuItem
+      Caption = 'Настройки'
+      object mmiDoubleClick: TMenuItem
+        Caption = 'Включить двойной щелчок'
+        OnClick = mmiDoubleClickClick
+      end
+    end
+  end
+  object od: TOpenDialog
+    Left = 154
+    Top = 94
+  end
+end

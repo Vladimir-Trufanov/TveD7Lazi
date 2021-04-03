@@ -6,7 +6,7 @@
     <General>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="MagicPoint"/>
+      <Title Value="StringGrid"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -20,8 +20,9 @@
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
-      <SharedMatrixOptions Count="1">
-        <Item1 ID="081333040766" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="601361167348" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+        <Item2 ID="026828305463" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
@@ -37,30 +38,38 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
-        <Filename Value="MagicPoint.lpr"/>
+        <Filename Value="StringGrid.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="magicpointfrm.pas"/>
+        <Filename Value="stringgridfrm.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmMagicPoint"/>
+        <ComponentName Value="frmStringGrid"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="MagicPointFrm"/>
+        <UnitName Value="StringGridFrm"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="editfrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fEdit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditFrm"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/RobotWinCE/Proba/MagicPointCE"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/StringGridCE"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/"/>
-      <UnitOutputDirectory Value="C:/TveD7Lazi/MagicPoint/out"/>
+      <UnitOutputDirectory Value="C:/TveD7Lazi/Examples/TStringGrid/out"/>
       <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
     </SearchPaths>
     <Parsing>

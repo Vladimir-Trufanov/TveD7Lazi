@@ -6,3 +6,5 @@
 /MagicPoint/*.compiled
 /MagicPoint/*.or
 /MagicPoint/*.a
+/MagicPoint/proba/TListView_full/*.a
+/MagicPoint/proba/TListView_full/*.compiled

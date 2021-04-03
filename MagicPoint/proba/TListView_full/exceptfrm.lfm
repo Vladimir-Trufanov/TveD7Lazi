@@ -1,0 +1,10 @@
+object frmExcept: TfrmExcept
+  Left = 508
+  Height = 300
+  Top = 171
+  Width = 400
+  Caption = 'frmExcept'
+  DesignTimePPI = 120
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+end

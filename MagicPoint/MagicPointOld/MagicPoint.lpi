@@ -7,60 +7,93 @@
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
       <Title Value="MagicPoint"/>
-      <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
-      <XPManifest>
-        <DpiAware Value="True"/>
-      </XPManifest>
       <Icon Value="0"/>
     </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <Language Value="0419"/>
+    </VersionInfo>
     <MacroValues Count="1">
       <Macro1 Name="LCLWidgetType" Value="wince"/>
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
       <SharedMatrixOptions Count="1">
-        <Item1 ID="081333040766" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+        <Item1 ID="816593883914" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <UseFileFilters Value="True"/>
     </PublishOptions>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="8">
       <Unit0>
         <Filename Value="MagicPoint.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="magicpointfrm.pas"/>
+        <Filename Value="MagicPointFrm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMagicPoint"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="MagicPointFrm"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="MagicMessagesUni.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\TLaziFrames\NumgressFrame\NumgressFrame.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frameNumgress"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\TLaziFrames\laziframesoutfit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LaziframesOutfit"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\TLaziFrames\laziframesalerts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LaziFramesAlerts"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\TLaziPrown\TellmeFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\TLaziFrames\GuideFrame\GuideFrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit7>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/RobotWinCE/Proba/MagicPointCE"/>
+      <Filename Value="MagicPointWinCE"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/"/>
-      <UnitOutputDirectory Value="C:/TveD7Lazi/MagicPoint/out"/>
+      <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/;../TLaziFrames/GuideFrame;../TLaziFrames/NumgressFrame;../TLaziFrames;../TLaziPrown"/>
       <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
     </SearchPaths>
     <Parsing>

@@ -4,137 +4,78 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="12">
+    <Units Count="5">
       <Unit0>
         <Filename Value="MagicPoint.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <WindowIndex Value="1"/>
-        <CursorPos X="36" Y="19"/>
-        <UsageCount Value="29"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
       </Unit0>
       <Unit1>
-        <Filename Value="MagicPointFrm.pas"/>
+        <Filename Value="magicpointfrm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMagicPoint"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="84"/>
-        <CursorPos X="40" Y="92"/>
-        <UsageCount Value="29"/>
+        <UnitName Value="MagicPointFrm"/>
+        <TopLine Value="31"/>
+        <CursorPos X="9" Y="43"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="MagicMessagesUni.pas"/>
-        <IsPartOfProject Value="True"/>
-        <WindowIndex Value="1"/>
-        <UsageCount Value="29"/>
-        <Loaded Value="True"/>
+        <Filename Value="..\TLaziFrames\NumgressFrame\NumgressFrame.pas"/>
+        <ComponentName Value="frameNumgress"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="42" Y="12"/>
+        <UsageCount Value="10"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\TLaziFrames\GuideFrame\GuideFrame.pas"/>
         <ComponentName Value="frameGuide"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="3"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="426"/>
-        <CursorPos X="8" Y="440"/>
-        <UsageCount Value="29"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="184"/>
+        <CursorPos X="6" Y="195"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
-        <Filename Value="..\TLaziFrames\NumgressFrame\NumgressFrame.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="frameNumgress"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="29"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="..\TLaziFrames\laziframesoutfit.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="LaziframesOutfit"/>
-        <UsageCount Value="29"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="..\TLaziFrames\laziframesalerts.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="LaziFramesAlerts"/>
-        <UsageCount Value="29"/>
-      </Unit6>
-      <Unit7>
-        <Filename Value="..\TLaziPrown\TellmeFrm.pas"/>
-        <IsPartOfProject Value="True"/>
-        <HasResources Value="True"/>
-        <UsageCount Value="29"/>
-      </Unit7>
-      <Unit8>
-        <Filename Value="C:\lazarus124.32\lcl\include\icon.inc"/>
-        <TopLine Value="798"/>
-        <CursorPos X="5" Y="821"/>
-        <UsageCount Value="10"/>
-      </Unit8>
-      <Unit9>
-        <Filename Value="C:\laztoapk\downloads\laz4android\lcl\menus.pp"/>
-        <UnitName Value="Menus"/>
-        <WindowIndex Value="1"/>
-        <TopLine Value="256"/>
-        <CursorPos X="20" Y="263"/>
-        <UsageCount Value="12"/>
-      </Unit9>
-      <Unit10>
-        <Filename Value="C:\laztoapk\downloads\laz4android\lcl\include\icon.inc"/>
-        <TopLine Value="807"/>
-        <CursorPos Y="819"/>
-        <UsageCount Value="10"/>
-      </Unit10>
-      <Unit11>
-        <Filename Value="..\TLaziFrames\GuideFrame\GuideFrm.pas"/>
-        <IsPartOfProject Value="True"/>
-        <HasResources Value="True"/>
+        <Filename Value="C:\LazarusWinCE\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="21"/>
-      </Unit11>
+        <TopLine Value="1539"/>
+        <CursorPos X="14" Y="1546"/>
+        <UsageCount Value="10"/>
+      </Unit4>
     </Units>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
-        <Filename Value="..\TLaziFrames\GuideFrame\GuideFrame.pas"/>
-        <Caret Line="187" Column="25" TopLine="162"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="5" Column="43"/>
       </Position1>
       <Position2>
         <Filename Value="..\TLaziFrames\GuideFrame\GuideFrame.pas"/>
-        <Caret Line="171" Column="82" TopLine="137"/>
+        <Caret Line="18" Column="23" TopLine="7"/>
       </Position2>
       <Position3>
-        <Filename Value="..\TLaziFrames\GuideFrame\GuideFrame.pas"/>
-        <Caret Line="182" Column="46" TopLine="167"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="5" Column="43"/>
       </Position3>
-      <Position4>
-        <Filename Value="..\TLaziFrames\GuideFrame\GuideFrame.pas"/>
-        <Caret Line="265" Column="4" TopLine="234"/>
-      </Position4>
-      <Position5>
-        <Filename Value="..\TLaziFrames\GuideFrame\GuideFrame.pas"/>
-        <Caret Line="42" Column="82" TopLine="530"/>
-      </Position5>
-      <Position6>
-        <Filename Value="MagicPointFrm.pas"/>
-        <Caret Line="4" Column="64"/>
-      </Position6>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode="default"/>
+      <Modes Count="0" ActiveMode=""/>
     </RunParams>
   </ProjectSession>
 </CONFIG>

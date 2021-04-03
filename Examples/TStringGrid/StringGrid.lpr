@@ -1,4 +1,4 @@
-program MagicPoint;
+program StringGrid;
 
 {$mode objfpc}{$H+}
 
@@ -7,7 +7,7 @@ uses
       cthreads,
       {$ENDIF}{$ENDIF}
       Interfaces, // this includes the LCL widgetset
-      Forms, MagicPointFrm
+      Forms, StringGridFrm, EditFrm
       { you can add units after this };
 
 {$R *.res}
@@ -16,7 +16,8 @@ begin
       RequireDerivedFormResource:=True;
       Application.Scaled:=True;
       Application.Initialize;
-			Application.CreateForm(TfrmMagicPoint, frmMagicPoint);
+			Application.CreateForm(TfrmStringGrid, frmStringGrid);
+			Application.CreateForm(TfEdit, fEdit);
       Application.Run;
 end.
 
