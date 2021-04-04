@@ -7,7 +7,7 @@ uses
       cthreads,
       {$ENDIF}{$ENDIF}
       Interfaces, // this includes the LCL widgetset
-      Forms, MagicPointFrm
+      Forms, MagicPointFrm, FilesFrm, RamFrm
       { you can add units after this };
 
 {$R *.res}
@@ -17,6 +17,8 @@ begin
       Application.Scaled:=True;
       Application.Initialize;
 			Application.CreateForm(TfrmMagicPoint, frmMagicPoint);
+			Application.CreateForm(TfrmFiles, frmFiles);
+			Application.CreateForm(TfrmRam, frmRam);
       Application.Run;
 end.
 

@@ -3,7 +3,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/RobotWinCE/Proba/MagicPointCE"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/MagicPointCE"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

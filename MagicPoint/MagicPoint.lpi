@@ -20,8 +20,9 @@
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
-      <SharedMatrixOptions Count="1">
-        <Item1 ID="081333040766" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="070061264622" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+        <Item2 ID="946409900970" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
@@ -37,7 +38,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="4">
       <Unit0>
         <Filename Value="MagicPoint.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -50,12 +51,28 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MagicPointFrm"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="filesfrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmFiles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FilesFrm"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ramfrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRam"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="RamFrm"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/RobotWinCE/Proba/MagicPointCE"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/MagicPointCE"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/StringGridCE"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/"/>
+      <UnitOutputDirectory Value="C:/TveD7Lazi/Examples/TStringGrid/out"/>
+      <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="wince"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowExecInfo Value="True"/>
+      </Verbosity>
+      <CreateMakefileOnBuild Value="True"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

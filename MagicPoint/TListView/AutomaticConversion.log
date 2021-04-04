@@ -1,0 +1,16 @@
+Provodnik1.lpi Note: К параметрам пользователя добавлены определения -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL
+ Progress: Найдены все файлы модулей
+Provodnik1.lpr(1,20) Note: После имени модуля добавлена директива MODE Delphi.
+ : 
+ : *** Преобразование файлов модулей, принадлежащих проекту/пакету ***
+Unit1.pas Note: Кодировка изменена с cp1251 на UTF-8
+Unit1.pas Note: Кодировка изменена с cp1251 на UTF-8
+Unit1.pas Note: Модуль "Windows" в выражении Uses заменён на "LCLIntf, LCLType, LMessages".
+Unit1.pas Note: Модуль "ShellAPI" удалён из выражения Uses.
+Unit1.pas(1,12) Note: После имени модуля добавлена директива MODE Delphi.
+ : 
+ : *** Исправление списков используемых модулей и файлов форм ***
+Unit1.pas Note: Удалено свойство "TextHeight".
+Unit1.pas Note: Удалено свойство "DesignSize".
+Unit1.pas Note: Удалено свойство "OldCreateOrder".
+ : Преобразование завершено.
