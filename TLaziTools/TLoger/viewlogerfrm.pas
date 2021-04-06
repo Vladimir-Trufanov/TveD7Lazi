@@ -2,11 +2,13 @@
 
 // ****************************************************************************
 // * VIEWLOGER: Визуализатор трассировщика сообщений по выполненным действиям *
+// *   (приложение с интервалом в полсекунды проверяет изменения в заданном   *
+// *                 лог-файле и показывает их на экране)                     *
 // ****************************************************************************
 
 //                                                   Автор:       Труфанов В.Е.
 //                                                   Дата создания:  05.10.2016
-// Copyright © 2016 TVE                              Посл.изменение: 11.10.2016
+// Copyright © 2016 TVE                              Посл.изменение: 05.04.2021
 
 unit ViewLogerFrm;
 
@@ -67,7 +69,7 @@ implementation
 { TfrmViewLoger }
 
 uses
-  AtLib,SubstrLib,windirs;
+  AtUni,SubstrUni,windirs;
 
 procedure TfrmViewLoger.FormCreate(Sender: TObject);
 var cSpecFolder: String;  // Спец.папка, в которой формируется Log-файл
@@ -83,7 +85,7 @@ begin
   od.FilterIndex:=1;
   od.FileName:='LogStream.txt';
   // Определяем каталог и имя файла по умалчанию
-  cSpecFolder:=GetWindowsSpecialDir(CSIDL_PROGRAM_FILES_COMMON);
+  cSpecFolder:=''; // GetWindowsSpecialDir(CSIDL_PROGRAM_FILES_COMMON);
   LogName:=cSpecFolder+od.FileName;
   Caption:='View: '+LogName;
 end;

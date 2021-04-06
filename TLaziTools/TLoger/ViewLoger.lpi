@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
@@ -13,9 +13,6 @@
     <i18n>
       <EnableI18N LFM="False"/>
     </i18n>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
     </BuildModes>
@@ -23,9 +20,10 @@
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <FormatVersion Value="1"/>
-      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
@@ -36,7 +34,6 @@
       <Unit0>
         <Filename Value="ViewLoger.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="ViewLoger"/>
       </Unit0>
       <Unit1>
         <Filename Value="viewlogerfrm.pas"/>
@@ -52,14 +49,12 @@
         <UnitName Value="Loger"/>
       </Unit2>
       <Unit3>
-        <Filename Value="..\..\TD7PROWN\AtLib.pas"/>
+        <Filename Value="..\..\TLaziPrown\AtUni.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="AtLib"/>
       </Unit3>
       <Unit4>
-        <Filename Value="..\..\TD7PROWN\SubStrLib.pas"/>
+        <Filename Value="..\..\TLaziPrown\SubstrUni.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="SubStrLib"/>
       </Unit4>
     </Units>
   </ProjectOptions>
@@ -71,22 +66,19 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\..\TD7PROWN"/>
+      <OtherUnitFiles Value="..\..\TLaziPrown"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <UseHeaptrc Value="True"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerMessages>
-        <MsgFileName Value=""/>
-      </CompilerMessages>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

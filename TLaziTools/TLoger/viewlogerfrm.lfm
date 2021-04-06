@@ -1,62 +1,66 @@
 object frmViewLoger: TfrmViewLoger
-  Left = 426
-  Height = 419
-  Top = 204
-  Width = 925
+  Left = 278
+  Height = 524
+  Top = 103
+  Width = 1156
   Caption = 'View'
-  ClientHeight = 399
-  ClientWidth = 925
+  ClientHeight = 499
+  ClientWidth = 1156
+  DesignTimePPI = 120
   Menu = mm
   OnCreate = FormCreate
   OnWindowStateChange = FormWindowStateChange
-  LCLVersion = '1.2.4.0'
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
   object memOne: TMemo
     Left = 0
-    Height = 64
+    Height = 80
     Top = 0
-    Width = 925
+    Width = 1156
     Align = alTop
     Lines.Strings = (
       'memOne'
     )
+    ParentFont = False
     ReadOnly = True
     TabOrder = 0
   end
   object memAll: TMemo
     Left = 0
-    Height = 333
-    Top = 66
-    Width = 925
+    Height = 417
+    Top = 82
+    Width = 1156
     Align = alClient
     Lines.Strings = (
       'memAll'
     )
+    ParentFont = False
     TabOrder = 1
   end
   object Split: TSplitter
     Cursor = crVSplit
     Left = 0
     Height = 2
-    Top = 64
-    Width = 925
+    Top = 80
+    Width = 1156
     Align = alTop
     Color = clGradientInactiveCaption
     ParentColor = False
     ResizeAnchor = akTop
   end
   object od: TOpenDialog
-    left = 592
-    top = 8
+    Left = 740
+    Top = 10
   end
   object Timer1: TTimer
     Interval = 512
     OnTimer = Timer1Timer
-    left = 544
-    top = 8
+    Left = 680
+    Top = 10
   end
   object mm: TMainMenu
-    left = 640
-    top = 8
+    Left = 800
+    Top = 10
     object mmiOpenFile: TMenuItem
       Caption = 'Открыть Log-файл'
       OnClick = mmiOpenFileClick

@@ -17,8 +17,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, ViewLogerFrm, Loger, AtLib, SubStrLib
-  { you can add units after this };
+  Forms, ViewLogerFrm, Loger;
 
 {$R *.res}
 

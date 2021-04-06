@@ -8,3 +8,13 @@
 /MagicPoint/*.a
 /MagicPoint/proba/TListView_full/*.a
 /MagicPoint/proba/TListView_full/*.compiled
+/MagicPoint/out
+/MagicPoint/lib/i386-win32
+/MagicPoint/backup
+/MagicPoint/TListView/lib/i386-win32
+/MagicPoint/TListView/backup
+/MagicPoint/TListView.old
+/TLaziTools/TLoger/lib/i386-win32
+/TLaziTools/TLoger/backup
+/TLaziTools/TLoger/ViewLoger.exe
+/MagicPoint/LogStream.txt
