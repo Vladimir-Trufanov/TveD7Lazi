@@ -82,7 +82,7 @@
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/;../TLaziTools/TLoger"/>
       <UnitOutputDirectory Value="C:/TveD7Lazi/MagicPoint/out"/>
-      <SrcPath Value="$(LazarusDir)/lcl"/>
+      <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>

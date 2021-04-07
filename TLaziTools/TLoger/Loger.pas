@@ -26,6 +26,10 @@ type
     function Open:Integer;
     // Закрыть Log-файл
     function Close: Integer;
+    // Получить наименование каталога,
+    // с которого запущена программа
+    function ExePath(): widestring;
+
   public
     constructor Create(ciNameDir:PChar=''; ciNameFile:PChar='');
     destructor Destroy; override;
@@ -38,6 +42,24 @@ type
 
 implementation
 
+
+// Получить наименование каталога,
+// с которого запущена программа
+function TLoger.ExePath(): widestring;
+var Str: widestring;
+  I: Integer;
+begin
+  Str := ParamStr (0);
+  for I := Length (Str) downto 1 do
+    if Str[I] = '\' then
+    begin
+      Str := Copy (Str, 1, I);
+      Break;
+    end; {if}
+  Result := Str;
+end;
+
+
 // ****************************************************************************
 // *                             Создать объект                               *
 // ****************************************************************************
@@ -48,11 +70,13 @@ begin
   {$IFDEF win32}
     FDirName:=GetWindowsSpecialDir(CSIDL_PROGRAM_FILES_COMMON);
   {$ENDIF}
-  // Формируем спецификацию файла
+  // Определяем спецификацию log-файла
   FDirName:=ciNameDir;
+  FDirName:=ExePath;
+  //FDirName:='\Storage Card\';
   if ciNameFile='' then FFileName:='LogStream.txt';
   cNameFile:=FDirName+FFileName;
-  //ShowMessage(cNameFile);
+  //cNameFile:='Storage Card\LogStream.txt';
 end;
 
 // ****************************************************************************
@@ -70,6 +94,7 @@ function TLoger.Log(cMessage:PChar):Integer;
 var cOut: String;
 begin
   cOut:=cMessage;
+  cOut:=ExePath+'*';
   Result:=LogAddString(cOut);
 end;
 

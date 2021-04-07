@@ -28,7 +28,7 @@ type
 				procedure btnRamClick(Sender: TObject);
         procedure FormCreate(Sender: TObject);
       private
-        oLog:TLoger;
+        oLog: TLoger;
       public
       end;
 
@@ -52,7 +52,7 @@ begin
       Break;
     end; {if}
   Result := Str;
-end; {func ExePath}
+end;
 
 
 {$R *.lfm}
@@ -66,8 +66,9 @@ var
   iStr: widestring;
 begin
   iStr:=ExePath();
-  oLog:=TLoger.Create(PChar(iStr));
-  //oLog:=TLoger.Create();
+  lblMess.Caption:=iStr;
+  //oLog:=TLoger.Create(PChar(iStr));
+  oLog:=TLoger.Create();
   nDelta:=Floor((770-80-600)/2);  // длина промежутка между кнопками
   Width:=770;
   Height:=440;
@@ -89,8 +90,8 @@ begin
   {$ELSE}
     BorderStyle:=bsSizeable;
   {$ENDIF}
-  //
-  oLog.Log('Сообщение!');
+
+  oLog.Log('Новое сообщение!');
   oLog.Destroy;
 end;
 

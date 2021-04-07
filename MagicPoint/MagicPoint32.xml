@@ -9,6 +9,7 @@
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      <OtherUnitFiles Value="..\TLaziTools\TLoger"/>
     </SearchPaths>
     <Linking>
       <Debugging>
