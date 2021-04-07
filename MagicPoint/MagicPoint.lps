@@ -20,7 +20,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MagicPointFrm"/>
-        <TopLine Value="24"/>
         <CursorPos X="9" Y="31"/>
         <UsageCount Value="48"/>
         <Loaded Value="True"/>
@@ -59,7 +58,7 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="89"/>
+        <TopLine Value="65"/>
         <CursorPos X="20" Y="97"/>
         <UsageCount Value="39"/>
         <Loaded Value="True"/>
