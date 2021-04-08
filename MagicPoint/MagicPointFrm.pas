@@ -7,7 +7,7 @@ unit MagicPointFrm;
 interface
 
 uses
-  Loger,
+  Loger, Windows,
   FilesFrm, RamFrm,
   Math,
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls;
@@ -64,9 +64,12 @@ var
   nButLen:Integer=200;  // длина кнопки
   nDelta:Integer;       // длина промежутка между кнопками
   iStr: widestring;
+
+  h: HWnd;
+  cStr: Pwidechar;//PChar;
 begin
   iStr:=ExePath();
-  lblMess.Caption:=iStr;
+  //lblMess.Caption:=iStr;
   //oLog:=TLoger.Create(PChar(iStr));
   oLog:=TLoger.Create();
   nDelta:=Floor((770-80-600)/2);  // длина промежутка между кнопками
@@ -93,6 +96,17 @@ begin
 
   oLog.Log('Новое сообщение!');
   oLog.Destroy;
+
+
+  h:=GetActiveWindow;
+  GetWindowText(h,cStr,100);
+  //cStr:='qwer';
+  //ShowMessage('UTF16ToUTF8(sei.lpFile)');
+  //ShowMessage(cStr);
+  //MessageBox(h,'Txt','Caption',1);
+  MessageBox(h,cStr,'Caption',1);
+  //iStr:=string(cStr);
+  //lblMess.Caption:=cStr;
 end;
 
 procedure TfrmMagicPoint.btnExitClick(Sender: TObject);

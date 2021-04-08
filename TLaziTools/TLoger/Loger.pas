@@ -20,16 +20,14 @@ type
     //FResult: Integer;         // Код завершения метода
     //FResume: String;          // Резюмирующее сообщение
     cNameFile: String;        // Спецификациия (путь+наименование) Log-файла
+    // Закрыть Log-файл
+    function Close: Integer;
+    // Получить наименование каталога, c которого запущена внешняя программа
+    function ExePath(): widestring;
     // Занести строку сообщения  в Log-файл
     function LogAddString(c:String):Integer;
     // Подключиться к Log-файлу и открыть его
     function Open:Integer;
-    // Закрыть Log-файл
-    function Close: Integer;
-    // Получить наименование каталога,
-    // с которого запущена программа
-    function ExePath(): widestring;
-
   public
     constructor Create(ciNameDir:PChar=''; ciNameFile:PChar='');
     destructor Destroy; override;
@@ -42,6 +40,29 @@ type
 
 implementation
 
+// ---------------------------------------------------- Публичные методы класса
+
+// ****************************************************************************
+// *                             Создать объект                               *
+// ****************************************************************************
+constructor TLoger.Create(ciNameDir:PChar=''; ciNameFile:PChar='');
+begin
+  // Рекомендуется использовать папку CSIDL_PROGRAM_FILES_COMMON для файла
+  // трассировки, то есть для XP "C:\Program Files\Common Files\"
+  {$IFDEF win32}
+    FDirName:=GetWindowsSpecialDir(CSIDL_PROGRAM_FILES_COMMON);
+  {$ENDIF}
+  // Если каталог для размещения Log-файла не задан, то выбираем каталог,
+  // из которого запущено внешнее приложение
+  if ciNameDir='' then FDirName:=ExePath
+  // Иначе настраиваемся на заданный каталог
+  // (здесь обыграть возможные ошибки)
+  else FDirName:=ciNameDir;
+  //FDirName:='\Storage Card\';
+  if ciNameFile='' then FFileName:='LogStream.txt';
+  cNameFile:=FDirName+FFileName;
+  //cNameFile:='Storage Card\LogStream.txt';
+end;
 
 // Получить наименование каталога,
 // с которого запущена программа
@@ -61,25 +82,6 @@ end;
 
 
 // ****************************************************************************
-// *                             Создать объект                               *
-// ****************************************************************************
-constructor TLoger.Create(ciNameDir:PChar=''; ciNameFile:PChar='');
-begin
-  // Рекомендуется использовать папку CSIDL_PROGRAM_FILES_COMMON для файла
-  // трассировки, то есть для XP "C:\Program Files\Common Files\"
-  {$IFDEF win32}
-    FDirName:=GetWindowsSpecialDir(CSIDL_PROGRAM_FILES_COMMON);
-  {$ENDIF}
-  // Определяем спецификацию log-файла
-  FDirName:=ciNameDir;
-  FDirName:=ExePath;
-  //FDirName:='\Storage Card\';
-  if ciNameFile='' then FFileName:='LogStream.txt';
-  cNameFile:=FDirName+FFileName;
-  //cNameFile:='Storage Card\LogStream.txt';
-end;
-
-// ****************************************************************************
 // *                               Уничтожить объект                          *
 // ****************************************************************************
 destructor TLoger.Destroy;
@@ -94,7 +96,7 @@ function TLoger.Log(cMessage:PChar):Integer;
 var cOut: String;
 begin
   cOut:=cMessage;
-  cOut:=ExePath+'*';
+  cOut:=ExePath+' +*-';
   Result:=LogAddString(cOut);
 end;
 

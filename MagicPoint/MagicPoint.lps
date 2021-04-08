@@ -4,13 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="19">
+    <Units Count="23">
       <Unit0>
         <Filename Value="MagicPoint.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="7"/>
-        <UsageCount Value="48"/>
+        <CursorPos X="62" Y="13"/>
+        <UsageCount Value="50"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -20,8 +21,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MagicPointFrm"/>
-        <CursorPos X="9" Y="31"/>
-        <UsageCount Value="48"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="99"/>
+        <CursorPos X="5" Y="103"/>
+        <UsageCount Value="50"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -32,10 +35,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FilesFrm"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="33"/>
         <CursorPos X="69" Y="89"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="50"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -46,21 +49,20 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="RamFrm"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="8"/>
         <TopLine Value="10"/>
         <CursorPos Y="18"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="50"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="65"/>
-        <CursorPos X="20" Y="97"/>
-        <UsageCount Value="39"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="69"/>
+        <CursorPos X="20" Y="99"/>
+        <UsageCount Value="41"/>
         <Loaded Value="True"/>
       </Unit4>
       <Unit5>
@@ -164,120 +166,160 @@
         <CursorPos X="11" Y="1341"/>
         <UsageCount Value="10"/>
       </Unit18>
+      <Unit19>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\ascdef.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="246"/>
+        <CursorPos X="10" Y="254"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\base.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="155"/>
+        <CursorPos X="6" Y="184"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\coredll.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2524"/>
+        <CursorPos X="10" Y="2532"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\base.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="168"/>
+        <CursorPos X="6" Y="176"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit22>
     </Units>
-    <JumpHistory Count="28" HistoryIndex="27">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="ramfrm.pas"/>
-        <Caret Line="53" TopLine="39"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="110" Column="12" TopLine="70"/>
       </Position1>
       <Position2>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="73" Column="3" TopLine="67"/>
+        <Caret Line="71" Column="24" TopLine="60"/>
       </Position2>
       <Position3>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="52" Column="3" TopLine="52"/>
+        <Caret Line="70" Column="8" TopLine="62"/>
       </Position3>
       <Position4>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="95" Column="15" TopLine="83"/>
+        <Caret Line="68" Column="4" TopLine="63"/>
       </Position4>
       <Position5>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="76" TopLine="61"/>
+        <Caret Line="71" Column="23" TopLine="60"/>
       </Position5>
       <Position6>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="93" Column="52"/>
+        <Caret Line="69" Column="17" TopLine="59"/>
       </Position6>
       <Position7>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="51" Column="29" TopLine="43"/>
+        <Caret Line="94" Column="3" TopLine="90"/>
       </Position7>
       <Position8>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="8" Column="20"/>
+        <Caret Line="46" Column="2" TopLine="41"/>
       </Position8>
       <Position9>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="8" Column="21"/>
+        <Caret Line="31" TopLine="21"/>
       </Position9>
       <Position10>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="80" Column="70" TopLine="67"/>
+        <Caret Line="70" Column="3"/>
       </Position10>
       <Position11>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="110" Column="12" TopLine="70"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="76" Column="11" TopLine="68"/>
       </Position11>
       <Position12>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="71" Column="24" TopLine="60"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="132" Column="41" TopLine="125"/>
       </Position12>
       <Position13>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="70" Column="8" TopLine="62"/>
+        <Caret Line="31" Column="9" TopLine="24"/>
       </Position13>
       <Position14>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="68" Column="4" TopLine="63"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="101" Column="30" TopLine="89"/>
       </Position14>
       <Position15>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="71" Column="23" TopLine="60"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="142" Column="3"/>
       </Position15>
       <Position16>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="69" Column="17" TopLine="59"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="117" Column="5" TopLine="109"/>
       </Position16>
       <Position17>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="94" Column="3" TopLine="90"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="117" Column="5" TopLine="105"/>
       </Position17>
       <Position18>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="46" Column="2" TopLine="41"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="126" Column="10" TopLine="121"/>
       </Position18>
       <Position19>
-        <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="31" TopLine="21"/>
+        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
+        <Caret Line="60" Column="28" TopLine="51"/>
       </Position19>
       <Position20>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="70" Column="3"/>
+        <Caret Line="100" Column="21" TopLine="95"/>
       </Position20>
       <Position21>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="76" Column="11" TopLine="68"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="103" TopLine="91"/>
       </Position21>
       <Position22>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="132" Column="41" TopLine="125"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="102" Column="23" TopLine="97"/>
       </Position22>
       <Position23>
         <Filename Value="magicpointfrm.pas"/>
-        <Caret Line="31" Column="9" TopLine="24"/>
+        <Caret Line="103" Column="56" TopLine="97"/>
       </Position23>
       <Position24>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="101" Column="30" TopLine="89"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="105" Column="19" TopLine="97"/>
       </Position24>
       <Position25>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="142" Column="3"/>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\ascdef.inc"/>
+        <Caret Line="254" Column="10" TopLine="246"/>
       </Position25>
       <Position26>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="117" Column="5" TopLine="109"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="105" Column="5" TopLine="97"/>
       </Position26>
       <Position27>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="117" Column="5" TopLine="105"/>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="95" Column="60" TopLine="94"/>
       </Position27>
       <Position28>
-        <Filename Value="..\TLaziTools\TLoger\Loger.pas"/>
-        <Caret Line="126" Column="10" TopLine="121"/>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\coredll.inc"/>
+        <Caret Line="2280" Column="43" TopLine="2272"/>
       </Position28>
+      <Position29>
+        <Filename Value="magicpointfrm.pas"/>
+        <Caret Line="107" Column="16" TopLine="99"/>
+      </Position29>
+      <Position30>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\coredll.inc"/>
+        <Caret Line="2532" Column="10" TopLine="2524"/>
+      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

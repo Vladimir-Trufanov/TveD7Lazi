@@ -1,0 +1,164 @@
+object frmLaziWinCE: TfrmLaziWinCE
+  Left = 648
+  Height = 440
+  Top = 282
+  Width = 770
+  Caption = 'frmLaziWinCE'
+  ClientHeight = 440
+  ClientWidth = 770
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object btnCurrDir: TButton
+    Left = 8
+    Height = 40
+    Top = 64
+    Width = 224
+    Caption = 'Текущий каталог'
+    Font.Height = -27
+    OnClick = btnCurrDirClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 664
+    Height = 39
+    Top = 80
+    Width = 94
+    Caption = 'Close'
+    Font.Height = -27
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnLoadDir: TButton
+    Left = 8
+    Height = 40
+    Top = 120
+    Width = 222
+    Caption = 'Каталог загрузки'
+    Font.Height = -27
+    OnClick = btnLoadDirClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object lblInfo: TLabel
+    Left = 8
+    Height = 37
+    Top = 8
+    Width = 98
+    Caption = 'Привет!'
+    Color = clYellow
+    Font.Height = -27
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object btn3Files: TButton
+    Left = 8
+    Height = 40
+    Top = 176
+    Width = 222
+    Caption = '3 файла'
+    Font.Height = -27
+    OnClick = btn3FilesClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 256
+    Height = 40
+    Top = 64
+    Width = 278
+    Caption = 'Разрешение экрана'
+    Font.Height = -27
+    OnClick = Button5Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btnMemory: TButton
+    Left = 8
+    Height = 40
+    Top = 232
+    Width = 222
+    Caption = 'ОЗУ'
+    Font.Height = -27
+    OnClick = btnMemoryClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnTimeInOut: TButton
+    Left = 8
+    Height = 40
+    Top = 288
+    Width = 222
+    Caption = 'Время прошло'
+    Font.Height = -27
+    OnClick = btnTimeInOutClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 256
+    Height = 40
+    Top = 120
+    Width = 276
+    Caption = '-'
+    Font.Height = -27
+    OnClick = Button8Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 256
+    Height = 40
+    Top = 176
+    Width = 276
+    Caption = 'MessageBox'
+    Font.Height = -27
+    OnClick = Button9Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 258
+    Height = 40
+    Top = 232
+    Width = 276
+    Caption = 'Модальная форма'
+    Font.Height = -27
+    OnClick = Button10Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button11: TButton
+    Left = 258
+    Height = 40
+    Top = 288
+    Width = 276
+    Caption = 'НЕМОДАЛЬНАЯ'
+    Font.Height = -27
+    OnClick = Button11Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button12: TButton
+    Left = 146
+    Height = 31
+    Top = 367
+    Width = 94
+    Caption = 'Button12'
+    OnClick = Button12Click
+    TabOrder = 11
+  end
+  object Button13: TButton
+    Left = 288
+    Height = 31
+    Top = 368
+    Width = 94
+    Caption = 'Button13'
+    OnClick = Button13Click
+    TabOrder = 12
+  end
+end
