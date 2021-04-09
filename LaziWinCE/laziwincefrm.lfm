@@ -66,14 +66,14 @@ object frmLaziWinCE: TfrmLaziWinCE
     ParentFont = False
     TabOrder = 3
   end
-  object Button5: TButton
+  object btnScreenSizes: TButton
     Left = 256
     Height = 40
     Top = 64
     Width = 278
     Caption = 'Разрешение экрана'
     Font.Height = -27
-    OnClick = Button5Click
+    OnClick = btnScreenSizesClick
     ParentFont = False
     TabOrder = 4
   end
@@ -99,27 +99,16 @@ object frmLaziWinCE: TfrmLaziWinCE
     ParentFont = False
     TabOrder = 6
   end
-  object Button8: TButton
-    Left = 256
+  object Button9: TButton
+    Left = 258
     Height = 40
     Top = 120
-    Width = 276
-    Caption = '-'
-    Font.Height = -27
-    OnClick = Button8Click
-    ParentFont = False
-    TabOrder = 7
-  end
-  object Button9: TButton
-    Left = 256
-    Height = 40
-    Top = 176
     Width = 276
     Caption = 'MessageBox'
     Font.Height = -27
     OnClick = Button9Click
     ParentFont = False
-    TabOrder = 8
+    TabOrder = 7
   end
   object Button10: TButton
     Left = 258
@@ -130,7 +119,7 @@ object frmLaziWinCE: TfrmLaziWinCE
     Font.Height = -27
     OnClick = Button10Click
     ParentFont = False
-    TabOrder = 9
+    TabOrder = 8
   end
   object Button11: TButton
     Left = 258
@@ -141,7 +130,7 @@ object frmLaziWinCE: TfrmLaziWinCE
     Font.Height = -27
     OnClick = Button11Click
     ParentFont = False
-    TabOrder = 10
+    TabOrder = 9
   end
   object Button12: TButton
     Left = 146
@@ -150,7 +139,7 @@ object frmLaziWinCE: TfrmLaziWinCE
     Width = 94
     Caption = 'Button12'
     OnClick = Button12Click
-    TabOrder = 11
+    TabOrder = 10
   end
   object Button13: TButton
     Left = 288
@@ -159,6 +148,6 @@ object frmLaziWinCE: TfrmLaziWinCE
     Width = 94
     Caption = 'Button13'
     OnClick = Button13Click
-    TabOrder = 12
+    TabOrder = 11
   end
 end

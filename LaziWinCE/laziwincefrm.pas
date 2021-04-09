@@ -16,17 +16,17 @@ type
 
 TfrmLaziWinCE = class(TForm)
 	btnCurrDir: TButton;
-	Button10: TButton;
+	btnLoadDir: TButton;
+	btn3Files: TButton;
+	btnMemory: TButton;
+	btnTimeInOut: TButton;
+	btnScreenSizes: TButton;
+
+  Button10: TButton;
 	Button11: TButton;
 	Button12: TButton;
 	Button13: TButton;
 	Button2: TButton;
-	btnLoadDir: TButton;
-	btn3Files: TButton;
-	Button5: TButton;
-	btnMemory: TButton;
-	btnTimeInOut: TButton;
-	Button8: TButton;
 	Button9: TButton;
 	lblInfo: TLabel;
   // Показать текущий каталог
@@ -39,14 +39,14 @@ TfrmLaziWinCE = class(TForm)
   procedure btnMemoryClick(Sender: TObject);
   // Показать время, прошедшее с момента запуска приложения
   procedure btnTimeInOutClick(Sender: TObject);
+  // Показать разрешение экрана
+  procedure btnScreenSizesClick(Sender: TObject);
 
   procedure Button10Click(Sender: TObject);
 	procedure Button11Click(Sender: TObject);
 	procedure Button12Click(Sender: TObject);
 	procedure Button13Click(Sender: TObject);
 	procedure Button2Click(Sender: TObject);
-	procedure Button5Click(Sender: TObject);
-	procedure Button8Click(Sender: TObject);
 	procedure Button9Click(Sender: TObject);
 	procedure FormCreate(Sender: TObject);
 
@@ -145,6 +145,19 @@ begin
   lblInfo.Caption:='Прошло: '+IntToStr(nFinish-nStart)+' ['+
     IntToStr(nFinish64-nStart64)+'] миллисекунд!';
 end;
+// Показать разрешение экрана
+procedure TfrmLaziWinCE.btnScreenSizesClick(Sender: TObject);
+var
+  oPoint: TPoint;
+function GetDisplaySize: TPoint;
+begin
+  Result.X := GetSystemMetrics (SM_CXSCREEN);
+  Result.Y := GetSystemMetrics (SM_CYSCREEN);
+end;
+begin
+  oPoint:=GetDisplaySize();
+  lblInfo.Caption:=IntToStr(oPoint.X)+'x'+IntToStr(oPoint.Y);
+end;
 
 procedure TfrmLaziWinCE.Button10Click(Sender: TObject);
 begin
@@ -208,40 +221,52 @@ begin
   Application.Terminate;
 end;
 
-// Показываем разрешение экрана
-function GetDisplaySize: TPoint;
-begin
-  Result.X := GetSystemMetrics (SM_CXSCREEN);
-  Result.Y := GetSystemMetrics (SM_CYSCREEN);
-end;
-procedure TfrmLaziWinCE.Button5Click(Sender: TObject);
+// Получить заголовок активного окна
+{$IFDEF wince}
+function GetActiveCaption:Pwidechar;
 var
-  oPoint: TPoint;
+  h: HWnd;
+  cStr: Pwidechar;
+{$ELSE}
+function GetActiveCaption:PChar;
+var
+  h: HWnd;
+  cStr: PChar;
+{$ENDIF}
 begin
-  oPoint:=GetDisplaySize();
-  lblInfo.Caption:=IntToStr(oPoint.X)+'x'+IntToStr(oPoint.Y);
+  h:=GetActiveWindow;
+  GetWindowText(h,cStr,100);
+  GetActiveCaption:=cStr;
 end;
 
-procedure TfrmLaziWinCE.Button8Click(Sender: TObject);
+procedure Wide2AnsiMove(source:pwidechar;dest:pchar;len:SizeInt);
+var
+  i : SizeInt;
 begin
+  for i:=1 to len do
+   begin
+     if word(source^)<128 then
+      dest^:=char(word(source^))
+     else
+      dest^:=' ';
+     inc(dest);
+     inc(source);
+   end;
 end;
 
 procedure TfrmLaziWinCE.Button9Click(Sender: TObject);
+// https://wiki.freepascal.org/Widestrings
 var
-  h: HWnd;
-  {$IFDEF wince}
-  cStr: Pwidechar;
-  {$ELSE}
-  cStr: PChar;
-  {$ENDIF}
+  cwch:Pwidechar='Русский Text это!';
+  //cwch:Pwidechar='This Is Text Russion';
+  cch:PChar;
 begin
-  h:=GetActiveWindow;
-  //GetWindowText(h,cStr,100);
-  //cStr:=UTF8ToSys('Это текст сообщения');
-  //MessageBox(h,cStr,'Заголовок',1);
-  //MessageBox(h,'qwert','jhhgf',1);
-  //cStr:=Pwidechar(GetCurrentDir);
-  //MessageBox(h,cStr,'Caption',1);
+  Wide2AnsiMove(cwch,cch,7);
+
+
+  //cch:='Русский Text это!';
+  lblInfo.Caption:=cch;
+  //MessageBox(h,cText,cCaption,MB_OK);
 end;
 
 procedure TfrmLaziWinCE.FormCreate(Sender: TObject);

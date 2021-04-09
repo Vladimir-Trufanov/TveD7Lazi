@@ -22,3 +22,8 @@
 /LaziWinCE/lib/i386-win32
 /LaziWinCE/fil
 /LaziWinCE/backup
+/LaziWinCE/LaziWin32.exe
+/LaziStrings/out
+/LaziStrings/lib/i386-win32
+/LaziStrings/backup
+/LaziStrings/LaziStrings32.exe
