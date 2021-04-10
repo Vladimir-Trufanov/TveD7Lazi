@@ -14,7 +14,7 @@ object frmLaziStrings: TfrmLaziStrings
     Left = 14
     Height = 36
     Top = 104
-    Width = 156
+    Width = 186
     Caption = 'WideString v1'
     Font.Height = -20
     OnClick = btnWideStringV1Click
@@ -49,7 +49,7 @@ object frmLaziStrings: TfrmLaziStrings
     Left = 16
     Height = 36
     Top = 152
-    Width = 150
+    Width = 182
     Caption = 'WideString v2'
     Font.Height = -20
     OnClick = btnWideStringV2Click
@@ -57,23 +57,70 @@ object frmLaziStrings: TfrmLaziStrings
     TabOrder = 1
   end
   object btnClose: TButton
-    Left = 678
+    Left = 400
     Height = 36
     Top = 424
-    Width = 98
-    Caption = 'Закрыть'
+    Width = 376
+    Caption = 'fpc=3.2.0 lcl=2.0.12  *** Закрыть ***'
     Font.Height = -20
     OnClick = btnCloseClick
     ParentFont = False
     TabOrder = 2
   end
+  object btnWhereString: TButton
+    Left = 16
+    Height = 36
+    Top = 200
+    Width = 182
+    Caption = 'Поиск в AnsiString'
+    Font.Height = -20
+    OnClick = btnWhereStringClick
+    ParentFont = False
+    TabOrder = 3
+  end
   object Button1: TButton
-    Left = 150
+    Left = 320
     Height = 31
-    Top = 300
+    Top = 104
     Width = 94
     Caption = 'Button1'
     OnClick = Button1Click
-    TabOrder = 3
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 320
+    Height = 49
+    Top = 152
+    Width = 134
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+  object Button3: TButton
+    Left = 320
+    Height = 31
+    Top = 232
+    Width = 94
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 6
+  end
+  object Button4: TButton
+    Left = 263
+    Height = 31
+    Top = 335
+    Width = 94
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 7
+  end
+  object Button5: TButton
+    Left = 600
+    Height = 31
+    Top = 112
+    Width = 94
+    Caption = 'Button5'
+    OnClick = Button5Click
+    TabOrder = 8
   end
 end
