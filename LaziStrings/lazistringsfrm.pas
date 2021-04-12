@@ -1,6 +1,6 @@
 unit LaziStringsFrm;
 
-{$mode objfpc}{$H+}
+{$mode objfpc}{$H+}{$codepage UTF8}
 
 interface
 
@@ -31,7 +31,7 @@ type
     procedure btnPointerClick(Sender: TObject);
     // Получить коды символов
     procedure btnViewCodesClick(Sender: TObject);
-	  procedure FormCreate(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
   public
   end;

@@ -6,23 +6,17 @@
     <General>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="LaziWinCE"/>
+      <Title Value="SirSerge"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
       <XPManifest>
         <DpiAware Value="True"/>
       </XPManifest>
+      <Icon Value="0"/>
     </General>
-    <MacroValues Count="1">
-      <Macro2 Name="LCLWidgetType" Value="win32"/>
-    </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
-      <SharedMatrixOptions Count="2">
-        <Item1 ID="851571981552" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
-        <Item2 ID="969089299043" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
-      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -37,51 +31,36 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="4">
+    <Units Count="3">
       <Unit0>
-        <Filename Value="LaziWinCE.lpr"/>
+        <Filename Value="SirSerge.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="laziwincefrm.pas"/>
+        <Filename Value="sirsergefrm.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmLaziWinCE"/>
-        <HasResources Value="True"/>
+        <ComponentName Value="frmSirSerge"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="LaziWinCEfrm"/>
+        <UnitName Value="SirSergeFrm"/>
       </Unit1>
       <Unit2>
-        <Filename Value="modalfrm.pas"/>
+        <Filename Value="myppunit1.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmModal"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="ModalFrm"/>
+        <UnitName Value="MyPPunit1"/>
       </Unit2>
-      <Unit3>
-        <Filename Value="modelessfrm.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmModeless"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="ModeLessFrm"/>
-      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="LaziWin32"/>
+      <Filename Value="SirSerge"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
-      <Debugging>
-        <UseHeaptrc Value="True"/>
-      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

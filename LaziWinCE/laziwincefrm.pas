@@ -1,10 +1,11 @@
 unit LaziWinCEfrm;
 
-{$mode objfpc}{$H+}
+{$mode objfpc}{$H+}{$codepage UTF8}
 
 interface
 
 uses
+  lazutf8,
   FileUtil, StrUtils,
   ModalFrm,ModeLessFrm,
   Windows,Math,
@@ -239,34 +240,27 @@ begin
   GetActiveCaption:=cStr;
 end;
 
-procedure Wide2AnsiMove(source:pwidechar;dest:pchar;len:SizeInt);
-var
-  i : SizeInt;
-begin
-  for i:=1 to len do
-   begin
-     if word(source^)<128 then
-      dest^:=char(word(source^))
-     else
-      dest^:=' ';
-     inc(dest);
-     inc(source);
-   end;
-end;
-
 procedure TfrmLaziWinCE.Button9Click(Sender: TObject);
-// https://wiki.freepascal.org/Widestrings
 var
-  cwch:Pwidechar='Русский Text это!';
-  //cwch:Pwidechar='This Is Text Russion';
-  cch:PChar;
+  h: HWnd;
+  {$IFDEF wince}
+  cStr: PWideChar;
+  {$ELSE}
+  cStr: PChar;
+  cCaption: PChar='Zagolovok';
+  {$ENDIF}
 begin
-  Wide2AnsiMove(cwch,cch,7);
-
-
-  //cch:='Русский Text это!';
-  lblInfo.Caption:=cch;
-  //MessageBox(h,cText,cCaption,MB_OK);
+  //WideCharToString(S):;
+  h:=GetActiveWindow;
+  //cStr:='Rus10-РРРус        '+#0;
+  //GetWindowText(h,cStr,15);
+  MessageBox(h,'cStr','cCaption',MB_OK);
+  //Showmessage(cStr);
+    //cStr:=UTF8ToSys('Это текст сообщения');
+    //MessageBox(h,cStr,'Заголовок',1);
+    //MessageBox(h,'qwert','jhhgf',1);
+    //cStr:=GetCurrentDir;
+    //MessageBox(h,cStr,'Caption',1);
 end;
 
 procedure TfrmLaziWinCE.FormCreate(Sender: TObject);

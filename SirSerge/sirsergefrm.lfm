@@ -1,0 +1,83 @@
+object frmSirSerge: TfrmSirSerge
+  Left = 386
+  Height = 403
+  Top = 171
+  Width = 859
+  Caption = 'frmSirSerge'
+  ClientHeight = 403
+  ClientWidth = 859
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 353
+    Top = 40
+    Width = 553
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 584
+    Height = 31
+    Top = 40
+    Width = 94
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object lblInfo: TLabel
+    Left = 8
+    Height = 20
+    Top = 8
+    Width = 43
+    Caption = 'lblInfo'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 584
+    Height = 31
+    Top = 80
+    Width = 94
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 584
+    Height = 31
+    Top = 128
+    Width = 94
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 584
+    Height = 31
+    Top = 168
+    Width = 94
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 584
+    Height = 31
+    Top = 224
+    Width = 94
+    Caption = 'Button5'
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 584
+    Height = 31
+    Top = 280
+    Width = 94
+    Caption = 'Button6'
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+end
