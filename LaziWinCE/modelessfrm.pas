@@ -5,20 +5,22 @@ unit ModeLessFrm;
 interface
 
 uses
-  Windows,
-      Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, StdCtrls;
+  lconvencoding, Windows, Classes, SysUtils, Forms, Controls, Graphics, Dialogs,
+	ComCtrls, StdCtrls, Grids;
 
 type
 
 			{ TfrmModeless }
 
       TfrmModeless = class(TForm)
-						Button1: TButton;
-						ListView1: TListView;
-						procedure Button1Click(Sender: TObject);
+						btnFindWindow: TButton;
+						btnCloseMainWindow: TButton;
+						StringGrid1: TStringGrid;
+						// Найти окно
+            procedure btnFindWindowClick(Sender: TObject);
+            // Закрыть главное окно
+            procedure btnCloseMainWindowClick(Sender: TObject);
       private
-            function GetTitle: String;
-
       public
 
       end;
@@ -32,46 +34,11 @@ implementation
 
 { TfrmModeless }
 
-function TfrmModeless.GetTitle: String;
+// Найти окно
+procedure TfrmModeless.btnFindWindowClick(Sender: TObject);
 var
-  l: Integer;
-  AnsiBuffer: string;
-  WideBuffer: WideString;
-begin
-
-{$ifdef WindowsUnicodeSupport}
-
-if UnicodeEnabledOS then
-begin
-  l := Windows.GetWindowTextLengthW(Handle);
-  SetLength(WideBuffer, l);
-  l := Windows.GetWindowTextW(Handle, @WideBuffer[1], l);
-  SetLength(WideBuffer, l);
-  Result := Utf8Encode(WideBuffer);
-end
-else
-begin
-  l := Windows.GetWindowTextLength(Handle);
-  SetLength(AnsiBuffer, l);
-  l := Windows.GetWindowText(Handle, @AnsiBuffer[1], l);
-  SetLength(AnsiBuffer, l);
-  Result := AnsiToUtf8(AnsiBuffer);
-end;
-
-{$else}
-
-   l := Windows.GetWindowTextLength(Handle);
-   SetLength(Result, l);
-   Windows.GetWindowText(Handle, @Result[1], l+6);
-
-{$endif}
-
-end;
-
-procedure TfrmModeless.Button1Click(Sender: TObject);
-var
-  l:integer;
-  cs:String;
+  l,ldelta:integer;
+  cs,cdelta:String;
   Form: HWnd;
   {$IFDEF wince}
   WindowCaption: PWideChar;
@@ -79,25 +46,48 @@ var
   WindowCaption: PChar;
   {$ENDIF}
 begin
-  //caption:='***'+GetTitle+'***';
-  WindowCaption:='frmLaziWinCEрус';
+  // Задаем название заголовка окна и ищем окно
+  WindowCaption:='frmLaziWinCE';
   Form := FindWindow (nil, WindowCaption);
   if Form <> 0 then begin
-
-  
-   l := Windows.GetWindowTextLength(Form);
-   SetLength(cs, l);
-   Windows.GetWindowText(Form, @cs[1], l);
-   Caption:=WindowCaption+' exist';
-
-
-     //GetWindowText(Form,WindowCaption,100);
-    //Caption:=WindowCaption+' exist';
-
+    // Формируем постфикс сообщения
+    cdelta:=': окно найдено!';
+    ldelta:=length(cdelta);
+    // Вытаскиваем название окна
+    l := Windows.GetWindowTextLength(Form);
+    SetLength(cs, l);
+    Windows.GetWindowText(Form, @cs[1], 100);//l+ldelta);
+    Caption:=cs+cdelta;
+  end
+  // Отмечем, что окно не найдено
+  else begin
+    Caption:='Окно '+WindowCaption+' не найдено!';
+	end;
+end;
+// Закрыть главное окно
+procedure TfrmModeless.btnCloseMainWindowClick(Sender: TObject);
+var
+  l,ldelta:integer;
+  cs,cdelta:String;
+  Form: HWnd;
+  {$IFDEF wince}
+  WindowCaption: PWideChar;
+  {$ELSE}
+  WindowCaption: PChar;
+  {$ENDIF}
+begin
+  // Задаем название заголовка окна и ищем окно
+  WindowCaption:='frmLaziWinCE';
+  Form := FindWindow (nil, WindowCaption);
+  if Form <> 0 then begin
     //ShowWindow (Form, SW_SHOW);
-    //SetForegroundWindow (Form);
-    //ExitProcess (0);
-  end;
+    SetForegroundWindow (Form);
+    ExitProcess (0);
+  end
+  // Отмечем, что окно не найдено
+  else begin
+    Caption:='Окно '+WindowCaption+' не найдено!';
+	end;
 end;
 
 end.

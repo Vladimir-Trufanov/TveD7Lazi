@@ -21,8 +21,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MagicPointFrm"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="99"/>
+        <TopLine Value="78"/>
         <CursorPos X="5" Y="103"/>
         <UsageCount Value="50"/>
         <Loaded Value="True"/>
@@ -35,9 +34,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FilesFrm"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
         <TopLine Value="33"/>
-        <CursorPos X="69" Y="89"/>
+        <CursorPos X="91" Y="40"/>
         <UsageCount Value="50"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>

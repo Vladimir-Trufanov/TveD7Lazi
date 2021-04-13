@@ -3,7 +3,7 @@ object frmLaziWinCE: TfrmLaziWinCE
   Height = 440
   Top = 282
   Width = 770
-  Caption = 'frmLaziWinCEрус'
+  Caption = 'frmLaziWinCE'
   ClientHeight = 440
   ClientWidth = 770
   DesignTimePPI = 120
