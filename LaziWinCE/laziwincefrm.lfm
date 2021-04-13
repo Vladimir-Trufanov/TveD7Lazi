@@ -150,4 +150,13 @@ object frmLaziWinCE: TfrmLaziWinCE
     OnClick = Button13Click
     TabOrder = 11
   end
+  object Button1: TButton
+    Left = 618
+    Height = 31
+    Top = 239
+    Width = 94
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 12
+  end
 end

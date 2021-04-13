@@ -37,7 +37,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="LaziWinCE.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -66,6 +66,13 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ModeLessFrm"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="wintask1frm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Wintask1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Wintask1Frm"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

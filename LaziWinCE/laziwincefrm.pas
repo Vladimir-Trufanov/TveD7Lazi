@@ -7,7 +7,7 @@ interface
 uses
   lazutf8,
   FileUtil, StrUtils,
-  ModalFrm,ModeLessFrm,
+  ModalFrm,ModeLessFrm,Wintask1Frm,
   Windows,Math,
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
 
@@ -22,6 +22,7 @@ TfrmLaziWinCE = class(TForm)
 	btnMemory: TButton;
 	btnTimeInOut: TButton;
 	btnScreenSizes: TButton;
+	Button1: TButton;
 
   Button10: TButton;
 	Button11: TButton;
@@ -47,6 +48,7 @@ TfrmLaziWinCE = class(TForm)
 	procedure Button11Click(Sender: TObject);
 	procedure Button12Click(Sender: TObject);
 	procedure Button13Click(Sender: TObject);
+	procedure Button1Click(Sender: TObject);
 	procedure Button2Click(Sender: TObject);
 	procedure Button9Click(Sender: TObject);
 	procedure FormCreate(Sender: TObject);
@@ -213,6 +215,11 @@ begin
     SetForegroundWindow (Form);
     //ExitProcess (0);
   end;
+end;
+
+procedure TfrmLaziWinCE.Button1Click(Sender: TObject);
+begin
+  Wintask1.ShowModal;
 end;
 
 

@@ -7,7 +7,7 @@ uses
       cthreads,
       {$ENDIF}{$ENDIF}
       Interfaces, // this includes the LCL widgetset
-      Forms, LaziWinCEfrm, ModalFrm, ModeLessFrm
+      Forms, LaziWinCEfrm, ModalFrm, ModeLessFrm, Wintask1Frm
       { you can add units after this };
 
 {$R *.res}
@@ -19,6 +19,7 @@ begin
 			Application.CreateForm(TfrmLaziWinCE, frmLaziWinCE);
 			Application.CreateForm(TfrmModal, frmModal);
 			Application.CreateForm(TfrmModeless, frmModeless);
+			Application.CreateForm(TWintask1, Wintask1);
       Application.Run;
 end.
 

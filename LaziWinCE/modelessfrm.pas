@@ -45,11 +45,15 @@ var
   {$ELSE}
   WindowCaption: PChar;
   {$ENDIF}
+  p: PString;
 begin
+  p:=@cs;
   // Задаем название заголовка окна и ищем окно
   WindowCaption:='frmLaziWinCE';
   Form := FindWindow (nil, WindowCaption);
   if Form <> 0 then begin
+
+    {
     // Формируем постфикс сообщения
     cdelta:=': окно найдено!';
     ldelta:=length(cdelta);
@@ -58,6 +62,18 @@ begin
     SetLength(cs, l);
     Windows.GetWindowText(Form, @cs[1], 100);//l+ldelta);
     Caption:=cs+cdelta;
+    }
+
+    
+   l := Windows.GetWindowTextLength(Form);
+   SetLength(cs, l);
+   Windows.GetWindowText(Form, @cs, l);
+   //Caption:=WindowCaption+' exist';
+   Caption:=p^; //+' exist';
+
+   //TCaption
+   //self.Cap
+
   end
   // Отмечем, что окно не найдено
   else begin

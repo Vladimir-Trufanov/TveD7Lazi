@@ -1,0 +1,39 @@
+object Wintask1: TWintask1
+  Left = 508
+  Height = 524
+  Top = 171
+  Width = 878
+  Caption = 'Wintask1'
+  ClientHeight = 524
+  ClientWidth = 878
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 244
+    Height = 31
+    Top = 398
+    Width = 94
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object lblInfo: TLabel
+    Left = 8
+    Height = 20
+    Top = 8
+    Width = 43
+    Caption = 'lblInfo'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 54
+    Height = 257
+    Top = 87
+    Width = 612
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+end
