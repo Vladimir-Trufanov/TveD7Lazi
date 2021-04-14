@@ -8,10 +8,10 @@
       <Unit0>
         <Filename Value="LaziWinCE.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="2"/>
         <CursorPos X="62" Y="10"/>
-        <UsageCount Value="57"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -21,9 +21,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="LaziWinCEfrm"/>
-        <TopLine Value="3"/>
-        <CursorPos X="36" Y="10"/>
-        <UsageCount Value="57"/>
+        <TopLine Value="159"/>
+        <CursorPos X="30" Y="140"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -34,10 +34,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ModalFrm"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="35"/>
         <CursorPos X="69" Y="44"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="60"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -51,299 +51,298 @@
         <EditorIndex Value="5"/>
         <TopLine Value="34"/>
         <CursorPos Y="43"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="60"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
+        <Filename Value="wintask1frm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Wintask1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Wintask1Frm"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="137"/>
+        <CursorPos X="3" Y="148"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="88"/>
         <CursorPos X="52" Y="194"/>
-        <UsageCount Value="8"/>
-      </Unit4>
-      <Unit5>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\inc\ustringh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="10" Y="38"/>
-        <UsageCount Value="14"/>
-      </Unit5>
-      <Unit6>
+        <UsageCount Value="13"/>
+      </Unit6>
+      <Unit7>
         <Filename Value="C:\LazarusWinCE\components\lazutils\fileutil.pas"/>
         <UnitName Value="FileUtil"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="219"/>
-        <UsageCount Value="11"/>
-      </Unit6>
-      <Unit7>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\packages\rtl-objpas\src\inc\strutils.pp"/>
         <UnitName Value="StrUtils"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="55"/>
-        <UsageCount Value="11"/>
-      </Unit7>
-      <Unit8>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\defines.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2022"/>
         <CursorPos X="56" Y="2097"/>
-        <UsageCount Value="15"/>
-      </Unit8>
-      <Unit9>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\windows.pp"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="14"/>
       </Unit9>
       <Unit10>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\coredll.inc"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="2045"/>
-        <CursorPos X="10" Y="2053"/>
-        <UsageCount Value="18"/>
-        <Loaded Value="True"/>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\windows.pp"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
       </Unit10>
       <Unit11>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\coredll.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2045"/>
+        <CursorPos X="10" Y="2053"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
         <Filename Value="C:\LazarusWinCE\lcl\interfaces\wince\wincewschecklst.pp"/>
         <UnitName Value="WinCEWSCheckLst"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="49"/>
         <CursorPos X="24" Y="65"/>
-        <UsageCount Value="17"/>
-      </Unit11>
-      <Unit12>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\base.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="661"/>
-        <CursorPos X="6" Y="669"/>
-        <UsageCount Value="17"/>
+        <UsageCount Value="16"/>
       </Unit12>
       <Unit13>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\wince\wininc\base.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="661"/>
+        <CursorPos X="6" Y="669"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\inc\systemh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="340"/>
         <CursorPos X="3" Y="348"/>
-        <UsageCount Value="13"/>
-      </Unit13>
-      <Unit14>
+        <UsageCount Value="12"/>
+      </Unit14>
+      <Unit15>
         <Filename Value="C:\LazarusWinCE\components\lazutils\lazutf8.pas"/>
         <UnitName Value="LazUTF8"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="192"/>
         <CursorPos X="10" Y="199"/>
         <UsageCount Value="17"/>
-        <Loaded Value="True"/>
-      </Unit14>
-      <Unit15>
+      </Unit15>
+      <Unit16>
         <Filename Value="C:\LazarusWinCE\examples\groupboxnested.pas"/>
         <UnitName Value="GroupBoxNested"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
-      </Unit15>
-      <Unit16>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\ascdef.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="246"/>
         <CursorPos X="10" Y="254"/>
-        <UsageCount Value="14"/>
-      </Unit16>
-      <Unit17>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\base.inc"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="271"/>
-        <CursorPos X="6" Y="279"/>
-        <UsageCount Value="16"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="13"/>
       </Unit17>
       <Unit18>
-        <Filename Value="C:\LazarusWinCE\lcl\dialogs.pp"/>
-        <UnitName Value="Dialogs"/>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\base.inc"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="716"/>
-        <CursorPos X="11" Y="724"/>
-        <UsageCount Value="14"/>
+        <CursorPos X="6" Y="279"/>
+        <UsageCount Value="16"/>
       </Unit18>
       <Unit19>
+        <Filename Value="C:\LazarusWinCE\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="716"/>
+        <CursorPos X="11" Y="724"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\ascfun.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="249"/>
         <CursorPos X="13" Y="257"/>
-        <UsageCount Value="13"/>
-      </Unit19>
-      <Unit20>
+        <UsageCount Value="12"/>
+      </Unit20>
+      <Unit21>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\objpas\sysutils\diskh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="8"/>
         <CursorPos X="10" Y="18"/>
-        <UsageCount Value="13"/>
-      </Unit20>
-      <Unit21>
+        <UsageCount Value="12"/>
+      </Unit21>
+      <Unit22>
         <Filename Value="C:\LazarusWinCE\lcl\controls.pp"/>
         <UnitName Value="Controls"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="160"/>
         <CursorPos X="3" Y="170"/>
-        <UsageCount Value="12"/>
-      </Unit21>
-      <Unit22>
+        <UsageCount Value="11"/>
+      </Unit22>
+      <Unit23>
         <Filename Value="C:\LazarusWinCE\components\lazutils\lconvencoding.pas"/>
         <UnitName Value="LConvEncoding"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3717"/>
         <CursorPos X="31" Y="3941"/>
-        <UsageCount Value="11"/>
-      </Unit22>
-      <Unit23>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
         <Filename Value="C:\LazarusWinCE\lcl\lcltype.pp"/>
         <UnitName Value="LCLType"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="67"/>
         <CursorPos X="3" Y="66"/>
-        <UsageCount Value="10"/>
-      </Unit23>
-      <Unit24>
-        <Filename Value="wintask1frm.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Wintask1"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Wintask1Frm"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="42"/>
-        <CursorPos X="6" Y="54"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <UsageCount Value="9"/>
       </Unit24>
       <Unit25>
         <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="1260"/>
-        <CursorPos X="10" Y="1268"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="10" Y="631"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit25>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="37" TopLine="33"/>
+        <Caret Line="155" Column="24" TopLine="147"/>
       </Position1>
       <Position2>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="41" TopLine="37"/>
+        <Caret Line="173" Column="13" TopLine="165"/>
       </Position2>
       <Position3>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="50" Column="92" TopLine="39"/>
+        <Caret Line="158" Column="5" TopLine="142"/>
       </Position3>
       <Position4>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="21" Column="18" TopLine="11"/>
+        <Caret Line="162" Column="10" TopLine="154"/>
       </Position4>
       <Position5>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="20" Column="55" TopLine="12"/>
+        <Caret Line="165" Column="50" TopLine="157"/>
       </Position5>
       <Position6>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="98" Column="25" TopLine="87"/>
+        <Caret Line="32" TopLine="4"/>
       </Position6>
       <Position7>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
-        <Caret Line="631" Column="10" TopLine="623"/>
+        <Filename Value="wintask1frm.pas"/>
+        <Caret Line="162" TopLine="154"/>
       </Position7>
       <Position8>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="96" Column="25" TopLine="88"/>
+        <Caret Line="164" Column="23" TopLine="156"/>
       </Position8>
       <Position9>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
-        <Caret Line="631" Column="10" TopLine="623"/>
+        <Filename Value="wintask1frm.pas"/>
+        <Caret Line="162" TopLine="154"/>
       </Position9>
       <Position10>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="96" Column="16" TopLine="88"/>
+        <Caret Line="159" Column="8" TopLine="148"/>
       </Position10>
       <Position11>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="99" Column="17" TopLine="88"/>
+        <Caret Line="162" Column="8" TopLine="156"/>
       </Position11>
       <Position12>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
-        <Caret Line="631" Column="10" TopLine="623"/>
+        <Filename Value="wintask1frm.pas"/>
+        <Caret Line="39" Column="31" TopLine="28"/>
       </Position12>
       <Position13>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="96" Column="49" TopLine="87"/>
+        <Caret Line="35" TopLine="21"/>
       </Position13>
       <Position14>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="20" TopLine="10"/>
+        <Caret Line="41" Column="3" TopLine="33"/>
       </Position14>
       <Position15>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="19" TopLine="10"/>
+        <Caret Line="162" Column="13" TopLine="154"/>
       </Position15>
       <Position16>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="18" TopLine="10"/>
+        <Caret Line="164" Column="8" TopLine="157"/>
       </Position16>
       <Position17>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="20" Column="93" TopLine="23"/>
+        <Caret Line="163" Column="27" TopLine="151"/>
       </Position17>
       <Position18>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="22" Column="93" TopLine="22"/>
+        <Caret Line="36" TopLine="26"/>
       </Position18>
       <Position19>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="45" Column="3" TopLine="30"/>
+        <Caret Line="40" TopLine="27"/>
       </Position19>
       <Position20>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="57" Column="46" TopLine="46"/>
+        <Caret Line="37" TopLine="31"/>
       </Position20>
       <Position21>
-        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
-        <Caret Line="1268" Column="10" TopLine="1260"/>
+        <Filename Value="wintask1frm.pas"/>
+        <Caret Line="56" TopLine="40"/>
       </Position21>
       <Position22>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="57" Column="46" TopLine="46"/>
+        <Caret Line="168" TopLine="154"/>
       </Position22>
       <Position23>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="53" Column="45" TopLine="39"/>
+        <Caret Line="57" Column="10" TopLine="49"/>
       </Position23>
       <Position24>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="56" Column="40" TopLine="43"/>
+        <Caret Line="140" TopLine="128"/>
       </Position24>
       <Position25>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="62" Column="25" TopLine="54"/>
+        <Caret Line="111" TopLine="122"/>
       </Position25>
       <Position26>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="67" Column="16" TopLine="57"/>
+        <Caret Line="137" Column="15" TopLine="131"/>
       </Position26>
       <Position27>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="89" TopLine="74"/>
+        <Caret Line="147" Column="3" TopLine="136"/>
       </Position27>
       <Position28>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="55" Column="8" TopLine="37"/>
+        <Caret Line="148" Column="3" TopLine="137"/>
       </Position28>
       <Position29>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="59" Column="12" TopLine="47"/>
+        <Caret Line="149" Column="3" TopLine="138"/>
       </Position29>
       <Position30>
         <Filename Value="wintask1frm.pas"/>
-        <Caret Line="54" Column="17" TopLine="42"/>
+        <Caret Line="148" Column="3" TopLine="137"/>
       </Position30>
     </JumpHistory>
     <RunParams>

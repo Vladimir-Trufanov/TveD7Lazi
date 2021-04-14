@@ -30,3 +30,6 @@
 /SirSerge/lib/i386-win32
 /SirSerge/backup
 /SirSerge/SirSerge.exe
+/*.exe
+/lib/i386-win32
+/backup
