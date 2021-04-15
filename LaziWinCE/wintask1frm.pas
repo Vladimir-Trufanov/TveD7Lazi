@@ -11,7 +11,7 @@ uses
 type
   TMyFunc = function(c:String): boolean;
 
-			{ TWintask1 }
+  { TWintask1 }
 
       TWintask1 = class(TForm)
 						Button1: TButton;
@@ -23,6 +23,7 @@ type
 						procedure Button1Click(Sender: TObject);
 						procedure Button2Click(Sender: TObject);
 						procedure Button3Click(Sender: TObject);
+						procedure Button5Click(Sender: TObject);
       procedure FormCreate(Sender: TObject);
 			procedure FormDestroy(Sender: TObject);
       private
@@ -104,7 +105,8 @@ begin
 end;
 
 //function EnumWindowsProc(h: HWND; L: LPARAM): BOOL; stdcall;
-function EnumWindowsProc(h: HWND; L: LPARAM): WINBOOL; stdcall;
+{
+function EnumWindowsProc(h: HWND; L: LPARAM): WINBOOL;
 var
    p : array[0 .. 255] of WideChar;
 begin
@@ -118,16 +120,16 @@ begin
    Result := True;
    }
 end;
-
+}
 procedure TWintask1.Button2Click(Sender: TObject);
-var
+//var
    //h: HWND; L: LPARAM;
-   f: ENUMWINDOWSPROC;
+   //f: ENUMWINDOWSPROC;
 begin
   // https://www.cyberforum.ru/lazarus/thread1737344.html
 
    //EnumWindows(@EnumWindowsProc1, 0);
-   EnumWindows(f,0);
+   //EnumWindows(f,0);
    //lblInfo.Caption:='Прошли '+IntToStr(n2);
 
 end;
@@ -143,9 +145,36 @@ begin
   Fnk('Приветик!');
 end;
 
+{$IFDEF wince}
+function EnumWindowsProc02(h:HWND; L:LPARAM): WINBOOL; stdcall;
+// base.inc for the Win32 API
+// ENUMWINDOWSPROC = function (_para1:HWND; _para2:LPARAM):WINBOOL;
+{$ELSE}
+function EnumWindowsProc02(h:HWND; L:LPARAM): WINBOOL; stdcall;
+// base.inc for the Win32 API
+// ENUMWINDOWSPROC = function (_para1:HWND; _para2:LPARAM):WINBOOL; stdcall;
+{$ENDIF}
+var
+   p : array[0 .. 255] of WideChar;
+begin
+end;
+
 procedure TWintask1.Button3Click(Sender: TObject);
 begin
   BBB(@AAA);
+end;
+
+procedure TWintask1.Button5Click(Sender: TObject);
+begin
+  {$IFDEF wince}
+  //function EnumWindows(lpEnumFunc:ENUMWINDOWSPROC; lParam:LPARAM):WINBOOL; external KernelDLL name 'EnumWindows';
+  //EnumWindows(@EnumWindowsProc02,0);  // coredll.inc for WinCE API
+  {$ELSE}
+  //function EnumWindows(lpEnumFunc:ENUMWINDOWSPROC; lParam:LPARAM):WINBOOL; external 'user32' name 'EnumWindows';
+  EnumWindows(@EnumWindowsProc02,0);  // func.inc for the Win32 API
+  //EnumWindows(
+  {$ENDIF}
+  lblInfo.Caption:='Прошли EnumWindowsProc02';
 end;
 
 

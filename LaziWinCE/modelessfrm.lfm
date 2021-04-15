@@ -13,8 +13,8 @@ object frmModeless: TfrmModeless
     Left = 8
     Height = 36
     Top = 248
-    Width = 136
-    Caption = 'Найти окно'
+    Width = 200
+    Caption = 'Найти главное окно'
     Font.Height = -20
     OnClick = btnFindWindowClick
     ParentFont = False
@@ -32,7 +32,7 @@ object frmModeless: TfrmModeless
     Height = 36
     Top = 248
     Width = 224
-    Caption = 'Закрыть главное окно'
+    Caption = 'Завершить работу'
     Font.Height = -20
     OnClick = btnCloseMainWindowClick
     ParentFont = False

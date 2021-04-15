@@ -62,6 +62,7 @@ object Wintask1: TWintask1
     Top = 384
     Width = 94
     Caption = 'Button5'
+    OnClick = Button5Click
     TabOrder = 4
   end
 end

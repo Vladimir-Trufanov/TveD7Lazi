@@ -6,7 +6,7 @@ uses
       {$IFDEF UNIX}{$IFDEF UseCThreads}
       cthreads,
       {$ENDIF}{$ENDIF}
-      Classes,SysUtils
+      Classes,SysUtils,Windows
       { you can add units after this };
 
 type
@@ -26,6 +26,15 @@ begin
   Fnk('Привет!');
 end;
 
+function FindWindowByEnumProc(h:HWND; L:LPARAM): WINBOOL; stdcall;
+begin
+  {
+    if ( IsConsole(hwnd) )         // use hwnd.
+        return FALSE;
+    }
+  result:=TRUE;
+end;
+
 begin
   a:= 5;
   b:= 10;
@@ -33,6 +42,7 @@ begin
   writeln('Переменная a = ', a, '; переменная b = ', b);
 
   BBB(@AAA);
+  EnumWindows(@FindWindowByEnumProc, NULL);
 
   readln();
 end.

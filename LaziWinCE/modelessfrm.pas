@@ -5,7 +5,8 @@ unit ModeLessFrm;
 interface
 
 uses
-  lconvencoding, Windows, Classes, SysUtils, Forms, Controls, Graphics, Dialogs,
+  lconvencoding, Windows,
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs,
 	ComCtrls, StdCtrls, Grids;
 
 type
@@ -52,28 +53,14 @@ begin
   WindowCaption:='frmLaziWinCE';
   Form := FindWindow (nil, WindowCaption);
   if Form <> 0 then begin
-
-    {
     // Формируем постфикс сообщения
     cdelta:=': окно найдено!';
     ldelta:=length(cdelta);
     // Вытаскиваем название окна
     l := Windows.GetWindowTextLength(Form);
     SetLength(cs, l);
-    Windows.GetWindowText(Form, @cs[1], 100);//l+ldelta);
+    Windows.GetWindowText(Form, @cs[1], l+ldelta);
     Caption:=cs+cdelta;
-    }
-
-    
-   l := Windows.GetWindowTextLength(Form);
-   SetLength(cs, l);
-   Windows.GetWindowText(Form, @cs, l);
-   //Caption:=WindowCaption+' exist';
-   Caption:=p^; //+' exist';
-
-   //TCaption
-   //self.Cap
-
   end
   // Отмечем, что окно не найдено
   else begin
@@ -92,13 +79,17 @@ var
   WindowCaption: PChar;
   {$ENDIF}
 begin
+
   // Задаем название заголовка окна и ищем окно
   WindowCaption:='frmLaziWinCE';
   Form := FindWindow (nil, WindowCaption);
   if Form <> 0 then begin
+    //ShowWindow (Form, SW_HIDE);
     //ShowWindow (Form, SW_SHOW);
-    SetForegroundWindow (Form);
-    ExitProcess (0);
+    //SetForegroundWindow (Form);
+    // Жестко завершаем работу, убивая процесс. Могли бы мягче,
+    // если бы воспользовалисть методом Application.Terminate; }
+    ExitProcess(0);
   end
   // Отмечем, что окно не найдено
   else begin

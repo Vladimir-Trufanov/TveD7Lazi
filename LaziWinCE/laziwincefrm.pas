@@ -1,3 +1,13 @@
+// FPC-3.2.0,LCL-2.0.12, WIN10\CE                      *** LaziWinCEfrm.pas ***
+
+// ****************************************************************************
+// *    Изучение возможностей, одновременные опыты в Windows10 и WindowsCE    *
+// ****************************************************************************
+
+//                                                   Автор:       Труфанов В.Е.
+//                                                   Дата создания:  30.03.2021
+// Copyright © 2021 TVE                              Посл.изменение: 15.04.2021
+
 unit LaziWinCEfrm;
 
 {$mode objfpc}{$H+}{$codepage UTF8}
@@ -25,7 +35,7 @@ TfrmLaziWinCE = class(TForm)
 	Button1: TButton;
 
   Button10: TButton;
-	Button11: TButton;
+	btnModeless: TButton;
 	Button12: TButton;
 	Button13: TButton;
 	Button2: TButton;
@@ -43,9 +53,11 @@ TfrmLaziWinCE = class(TForm)
   procedure btnTimeInOutClick(Sender: TObject);
   // Показать разрешение экрана
   procedure btnScreenSizesClick(Sender: TObject);
+  // Развернуть немодальную форму, выполнить в ней поиск главного окна,
+  // и завершить приложение
+  procedure btnModelessClick(Sender: TObject);
 
   procedure Button10Click(Sender: TObject);
-	procedure Button11Click(Sender: TObject);
 	procedure Button12Click(Sender: TObject);
 	procedure Button13Click(Sender: TObject);
 	procedure Button1Click(Sender: TObject);
@@ -81,14 +93,6 @@ begin
     Break;
   end;
   Result := Str;
-end;
-
-procedure DivZir;
-var
-  nol: double;
-begin
-  nol:=0;
-  nol:=5/nol;
 end;
 
 { TfrmLaziWinCE }
@@ -161,15 +165,16 @@ begin
   oPoint:=GetDisplaySize();
   lblInfo.Caption:=IntToStr(oPoint.X)+'x'+IntToStr(oPoint.Y);
 end;
+// Развернуть немодальную форму, выполнить в ней поиск главного окна,
+// и завершить приложение
+procedure TfrmLaziWinCE.btnModelessClick(Sender: TObject);
+begin
+  frmModeLess.Show();
+end;
 
 procedure TfrmLaziWinCE.Button10Click(Sender: TObject);
 begin
   frmModal.ShowModal
-end;
-
-procedure TfrmLaziWinCE.Button11Click(Sender: TObject);
-begin
-  frmModeLess.Show();
 end;
 
 procedure TfrmLaziWinCE.Button12Click(Sender: TObject);
@@ -227,6 +232,7 @@ end;
 procedure TfrmLaziWinCE.Button2Click(Sender: TObject);
 begin
   Application.Terminate;
+  //Close;  OnCloseQuery;
 end;
 
 // Получить заголовок активного окна
@@ -289,4 +295,6 @@ begin
 end;
 
 end.
+
+// ******************************************************* LaziWinCEfrm.pas ***
 

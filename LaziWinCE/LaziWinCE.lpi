@@ -15,13 +15,13 @@
       </XPManifest>
     </General>
     <MacroValues Count="1">
-      <Macro2 Name="LCLWidgetType" Value="win32"/>
+      <Macro1 Name="LCLWidgetType" Value="wince"/>
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
       <SharedMatrixOptions Count="2">
-        <Item1 ID="851571981552" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
-        <Item2 ID="969089299043" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
+        <Item1 ID="851571981552" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+        <Item2 ID="969089299043" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
@@ -78,17 +78,27 @@
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
-    <PathDelim Value="\"/>
     <Target>
-      <Filename Value="LaziWin32"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/LaziWinCE"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/;../TLaziTools/TLoger"/>
+      <UnitOutputDirectory Value="C:/TveD7Lazi/MagicPoint/out"/>
+      <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="wince"/>
+    </CodeGeneration>
     <Linking>
       <Debugging>
-        <UseHeaptrc Value="True"/>
+        <GenerateDebugInfo Value="False"/>
       </Debugging>
       <Options>
         <Win32>
@@ -96,6 +106,12 @@
         </Win32>
       </Options>
     </Linking>
+    <Other>
+      <Verbosity>
+        <ShowExecInfo Value="True"/>
+      </Verbosity>
+      <CreateMakefileOnBuild Value="True"/>
+    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

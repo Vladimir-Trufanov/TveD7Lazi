@@ -4,18 +4,34 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="3">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="22"/>
-        <CursorPos X="8" Y="35"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="33"/>
+        <CursorPos X="3" Y="45"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="623"/>
+        <CursorPos X="10" Y="631"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\base.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="666"/>
+        <CursorPos X="70" Y="674"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="17" HistoryIndex="16">
       <Position1>
         <Filename Value="project1.lpr"/>
         <Caret Line="24" Column="3" TopLine="21"/>
@@ -44,6 +60,46 @@
         <Filename Value="project1.lpr"/>
         <Caret Line="18" Column="10" TopLine="10"/>
       </Position7>
+      <Position8>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="45" Column="5" TopLine="33"/>
+      </Position8>
+      <Position9>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="29" Column="44" TopLine="21"/>
+      </Position9>
+      <Position10>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="35" Column="3" TopLine="24"/>
+      </Position10>
+      <Position11>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="9" Column="31"/>
+      </Position11>
+      <Position12>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="35" Column="11" TopLine="27"/>
+      </Position12>
+      <Position13>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="45" Column="3" TopLine="33"/>
+      </Position13>
+      <Position14>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="48" Column="28" TopLine="33"/>
+      </Position14>
+      <Position15>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
+        <Caret Line="631" Column="10" TopLine="623"/>
+      </Position15>
+      <Position16>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="45" Column="16" TopLine="33"/>
+      </Position16>
+      <Position17>
+        <Filename Value="C:\LazarusWinCE\fpc\3.2.0\source\rtl\win\wininc\func.inc"/>
+        <Caret Line="631" Column="10" TopLine="623"/>
+      </Position17>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

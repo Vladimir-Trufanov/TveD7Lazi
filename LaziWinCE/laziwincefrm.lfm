@@ -100,9 +100,9 @@ object frmLaziWinCE: TfrmLaziWinCE
     TabOrder = 6
   end
   object Button9: TButton
-    Left = 256
+    Left = 258
     Height = 40
-    Top = 120
+    Top = 176
     Width = 276
     Caption = 'MessageBox'
     Font.Height = -27
@@ -121,14 +121,14 @@ object frmLaziWinCE: TfrmLaziWinCE
     ParentFont = False
     TabOrder = 8
   end
-  object Button11: TButton
-    Left = 258
+  object btnModeless: TButton
+    Left = 256
     Height = 40
-    Top = 288
+    Top = 120
     Width = 276
     Caption = 'НЕМОДАЛЬНАЯ'
     Font.Height = -27
-    OnClick = Button11Click
+    OnClick = btnModelessClick
     ParentFont = False
     TabOrder = 9
   end
