@@ -37,3 +37,6 @@
 /LaziChars/out
 /LaziChars/backup
 /LaziChars/Rus10-Рус
+/LaziWinCE/outCE
+/LaziWinCE/out32
+/LaziWinCE/*.exe

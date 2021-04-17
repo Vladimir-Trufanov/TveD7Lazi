@@ -4,11 +4,11 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="C:\TveD7Lazi\LaziChars\Rus10-Рус\LaziChars32"/>
+      <Filename Value="C:\TveD7Lazi\LaziWinCE\LaziChars32"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="C:\TveD7Lazi\LaziChars\out"/>
+      <UnitOutputDirectory Value="C:\TveD7Lazi\LaziWinCE\out32"/>
     </SearchPaths>
     <Linking>
       <Debugging>

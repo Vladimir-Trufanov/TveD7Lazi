@@ -16,13 +16,13 @@
       <Icon Value="0"/>
     </General>
     <MacroValues Count="1">
-      <Macro2 Name="LCLWidgetType" Value="wince"/>
+      <Macro1 Name="LCLWidgetType" Value="win32"/>
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
       <SharedMatrixOptions Count="2">
-        <Item1 ID="631170829617" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
-        <Item2 ID="464312244374" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+        <Item1 ID="631170829617" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
+        <Item2 ID="464312244374" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
@@ -60,27 +60,17 @@
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
+    <PathDelim Value="\"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/Rus10-Рус/LaziChars"/>
+      <Filename Value="C:\TveD7Lazi\LaziWinCE\LaziChars32"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/"/>
-      <UnitOutputDirectory Value="C:/TveD7Lazi/LaziChars/out"/>
-      <SrcPath Value="$(LazarusDir)/lcl"/>
+      <UnitOutputDirectory Value="C:\TveD7Lazi\LaziWinCE\out32"/>
     </SearchPaths>
-    <Parsing>
-      <SyntaxOptions>
-        <UseAnsiStrings Value="False"/>
-      </SyntaxOptions>
-    </Parsing>
-    <CodeGeneration>
-      <TargetCPU Value="arm"/>
-      <TargetOS Value="wince"/>
-    </CodeGeneration>
     <Linking>
       <Debugging>
-        <GenerateDebugInfo Value="False"/>
+        <UseHeaptrc Value="True"/>
       </Debugging>
       <Options>
         <Win32>
@@ -88,12 +78,6 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <Verbosity>
-        <ShowExecInfo Value="True"/>
-      </Verbosity>
-      <CreateMakefileOnBuild Value="True"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

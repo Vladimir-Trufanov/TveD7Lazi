@@ -3,12 +3,12 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/Rus10-Рус/LaziChars"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/LaziWinCE/LaziChars"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/"/>
-      <UnitOutputDirectory Value="C:/TveD7Lazi/LaziChars/out"/>
+      <UnitOutputDirectory Value="C:/TveD7Lazi/LaziWinCE/outCE"/>
       <SrcPath Value="$(LazarusDir)/lcl"/>
     </SearchPaths>
     <Parsing>
