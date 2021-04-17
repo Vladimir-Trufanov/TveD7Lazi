@@ -25,6 +25,7 @@ type
 		Button4: TButton;
 		Button5: TButton;
 		Button6: TButton;
+		Button7: TButton;
 		lblInfo: TLabel;
 		Memo1: TMemo;
 		procedure Button1Click(Sender: TObject);
@@ -33,6 +34,7 @@ type
 		procedure Button4Click(Sender: TObject);
 		procedure Button5Click(Sender: TObject);
 		procedure Button6Click(Sender: TObject);
+		procedure Button7Click(Sender: TObject);
   private
   public
   end;
@@ -79,6 +81,21 @@ begin
   SetCodePage(rb0,0,FALSE);
   Memo1.Append(rb0);
 end;
+
+
+procedure TfrmSirSerge.Button7Click(Sender: TObject);
+Var rb0: RawByteString;
+begin
+  Memo1.Clear;
+  rb0:=RUnicodeString;
+  Memo1.Append('rb0 перед конверсией:'+PrintByte(@rb0[1],8));
+  Memo1.Append('rb0 CodePage:'+IntToStr(StringCodePage(rb0)));
+  SetCodePage(rb0,CP_UTF8,TRUE);
+  Memo1.Append('rb0 после конверсии:'+PrintByte(@rb0[1],8));
+  SetCodePage(rb0,0,FALSE);
+  Memo1.Append(rb0);
+end;
+
 
 procedure TfrmSirSerge.Button3Click(Sender: TObject);
 Var

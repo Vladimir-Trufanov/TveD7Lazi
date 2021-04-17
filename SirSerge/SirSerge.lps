@@ -18,10 +18,11 @@
         <Filename Value="sirsergefrm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmSirSerge"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="SirSergeFrm"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="36" Y="5"/>
+        <CursorPos X="62" Y="7"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -83,67 +84,67 @@
       </Position5>
       <Position6>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="11" Column="11" TopLine="44"/>
+        <Caret Line="56" Column="41" TopLine="44"/>
       </Position6>
       <Position7>
-        <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="56" Column="41" TopLine="44"/>
-      </Position7>
-      <Position8>
         <Filename Value="myppunit1.pas"/>
         <Caret Line="21" Column="47" TopLine="6"/>
+      </Position7>
+      <Position8>
+        <Filename Value="sirsergefrm.pas"/>
+        <Caret Line="54" Column="34" TopLine="45"/>
       </Position8>
       <Position9>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="54" Column="34" TopLine="45"/>
+        <Caret Line="56" Column="34" TopLine="47"/>
       </Position9>
       <Position10>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="56" Column="34" TopLine="47"/>
+        <Caret Line="66" TopLine="58"/>
       </Position10>
       <Position11>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="66" TopLine="58"/>
+        <Caret Line="68" TopLine="60"/>
       </Position11>
       <Position12>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="68" TopLine="60"/>
+        <Caret Line="82" Column="3" TopLine="75"/>
       </Position12>
       <Position13>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="82" Column="3" TopLine="75"/>
+        <Caret Line="84" Column="3" TopLine="77"/>
       </Position13>
       <Position14>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="84" Column="3" TopLine="77"/>
+        <Caret Line="101" Column="19" TopLine="88"/>
       </Position14>
       <Position15>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="101" Column="19" TopLine="88"/>
+        <Caret Line="103" Column="19" TopLine="90"/>
       </Position15>
       <Position16>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="103" Column="19" TopLine="90"/>
+        <Caret Line="113" Column="20" TopLine="100"/>
       </Position16>
       <Position17>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="113" Column="20" TopLine="100"/>
+        <Caret Line="111" Column="57" TopLine="101"/>
       </Position17>
       <Position18>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="111" Column="57" TopLine="101"/>
+        <Caret Line="112" Column="35" TopLine="101"/>
       </Position18>
       <Position19>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="112" Column="35" TopLine="101"/>
+        <Caret Line="114" Column="35" TopLine="103"/>
       </Position19>
       <Position20>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="114" Column="35" TopLine="103"/>
+        <Caret Line="126" Column="75" TopLine="112"/>
       </Position20>
       <Position21>
         <Filename Value="sirsergefrm.pas"/>
-        <Caret Line="126" Column="75" TopLine="112"/>
+        <Caret Line="9" Column="76" TopLine="69"/>
       </Position21>
     </JumpHistory>
     <RunParams>

@@ -15,8 +15,14 @@
       </XPManifest>
       <Icon Value="0"/>
     </General>
+    <MacroValues Count="1">
+      <Macro1 Name="LCLWidgetType" Value="wince"/>
+    </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="1">
+        <Item1 ID="997297216121" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -40,6 +46,7 @@
         <Filename Value="sirsergefrm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmSirSerge"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="SirSergeFrm"/>
       </Unit1>
@@ -52,21 +59,40 @@
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
-    <PathDelim Value="\"/>
     <Target>
-      <Filename Value="SirSerge"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/SirSerge"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/;../TLaziTools/TLoger"/>
+      <UnitOutputDirectory Value="C:/TveD7Lazi/MagicPoint/out"/>
+      <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="wince"/>
+    </CodeGeneration>
     <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>
         </Win32>
       </Options>
     </Linking>
+    <Other>
+      <Verbosity>
+        <ShowExecInfo Value="True"/>
+      </Verbosity>
+      <CreateMakefileOnBuild Value="True"/>
+    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

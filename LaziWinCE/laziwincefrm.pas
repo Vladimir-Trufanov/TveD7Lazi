@@ -39,6 +39,7 @@ TfrmLaziWinCE = class(TForm)
 	Button12: TButton;
 	Button13: TButton;
 	Button2: TButton;
+	Button3: TButton;
 	Button9: TButton;
 	lblInfo: TLabel;
   // Показать текущий каталог
@@ -62,6 +63,7 @@ TfrmLaziWinCE = class(TForm)
 	procedure Button13Click(Sender: TObject);
 	procedure Button1Click(Sender: TObject);
 	procedure Button2Click(Sender: TObject);
+	procedure Button3Click(Sender: TObject);
 	procedure Button9Click(Sender: TObject);
 	procedure FormCreate(Sender: TObject);
 
@@ -105,7 +107,7 @@ end;
 // Показать наименование каталога, с которого запущена программа
 procedure TfrmLaziWinCE.btnLoadDirClick(Sender: TObject);
 begin
-  lblInfo.Caption:=ExePath();
+  lblInfo.Caption:=ExePath;
 end;
 // Показать 3 файла/каталога в каталоге загрузки
 procedure TfrmLaziWinCE.btn3FilesClick(Sender: TObject);
@@ -233,6 +235,11 @@ procedure TfrmLaziWinCE.Button2Click(Sender: TObject);
 begin
   Application.Terminate;
   //Close;  OnCloseQuery;
+end;
+
+procedure TfrmLaziWinCE.Button3Click(Sender: TObject);
+begin
+  lblInfo.Caption:=SysToUTF8(GetCurrentDir);
 end;
 
 // Получить заголовок активного окна

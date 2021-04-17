@@ -7,6 +7,7 @@ object frmSirSerge: TfrmSirSerge
   ClientHeight = 403
   ClientWidth = 859
   DesignTimePPI = 120
+  Position = poScreenCenter
   LCLVersion = '2.0.12.0'
   object Memo1: TMemo
     Left = 8
@@ -65,7 +66,7 @@ object frmSirSerge: TfrmSirSerge
   object Button5: TButton
     Left = 584
     Height = 31
-    Top = 224
+    Top = 208
     Width = 94
     Caption = 'Button5'
     OnClick = Button5Click
@@ -74,10 +75,19 @@ object frmSirSerge: TfrmSirSerge
   object Button6: TButton
     Left = 584
     Height = 31
-    Top = 280
+    Top = 248
     Width = 94
     Caption = 'Button6'
     OnClick = Button6Click
     TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 584
+    Height = 31
+    Top = 288
+    Width = 94
+    Caption = 'Button7'
+    OnClick = Button7Click
+    TabOrder = 7
   end
 end

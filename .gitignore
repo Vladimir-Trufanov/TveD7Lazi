@@ -33,3 +33,7 @@
 /*.exe
 /lib/i386-win32
 /backup
+/LaziWinCE/Утилиты WinCE/*.exe
+/LaziChars/out
+/LaziChars/backup
+/LaziChars/Rus10-Рус
