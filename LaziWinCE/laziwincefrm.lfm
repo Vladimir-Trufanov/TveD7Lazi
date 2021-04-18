@@ -70,7 +70,7 @@ object frmLaziWinCE: TfrmLaziWinCE
     Left = 256
     Height = 40
     Top = 64
-    Width = 278
+    Width = 360
     Caption = 'Разрешение экрана'
     Font.Height = -27
     OnClick = btnScreenSizesClick
@@ -100,10 +100,10 @@ object frmLaziWinCE: TfrmLaziWinCE
     TabOrder = 6
   end
   object Button9: TButton
-    Left = 258
+    Left = 264
     Height = 40
-    Top = 176
-    Width = 276
+    Top = 175
+    Width = 352
     Caption = 'MessageBox'
     Font.Height = -27
     OnClick = Button9Click
@@ -114,7 +114,7 @@ object frmLaziWinCE: TfrmLaziWinCE
     Left = 258
     Height = 40
     Top = 232
-    Width = 276
+    Width = 358
     Caption = 'Модальная форма'
     Font.Height = -27
     OnClick = Button10Click
@@ -125,8 +125,8 @@ object frmLaziWinCE: TfrmLaziWinCE
     Left = 256
     Height = 40
     Top = 120
-    Width = 276
-    Caption = 'НЕМОДАЛЬНАЯ'
+    Width = 362
+    Caption = 'Окна немодальной формы'
     Font.Height = -27
     OnClick = btnModelessClick
     ParentFont = False
@@ -151,9 +151,9 @@ object frmLaziWinCE: TfrmLaziWinCE
     TabOrder = 11
   end
   object Button1: TButton
-    Left = 618
+    Left = 664
     Height = 31
-    Top = 239
+    Top = 184
     Width = 94
     Caption = 'Button1'
     OnClick = Button1Click

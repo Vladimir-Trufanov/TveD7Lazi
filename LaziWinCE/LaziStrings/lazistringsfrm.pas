@@ -52,7 +52,7 @@ var
 begin
   // FPC преобразовывает системную кодовую страницу в UTF16 = UnicodeString
   w:='Рус10-Rus';
-  // FPC в Caption вкладывает как AnsiString (поэтому выводит неправильно)
+  // FPC в Caption вкладывает как AnsiString
   lblFirst.Caption:=w;
   // AnsiString преобразоваем в UnicodeString
   w:=UTF8ToUTF16('Рус10-Rus');
@@ -64,9 +64,7 @@ var
   w: widestring;
 begin
   w:='Рус10-Rus';
-  // Неправильно
   lblFirst.Caption:=UTF16ToUTF8(w);
-  // Неправильно
   w:='Рус10-Rus';
   w:=UTF8ToUTF16(w);
   lblSecond.Caption:=UTF16ToUTF8(w);
@@ -130,14 +128,6 @@ var
   end;
 
 begin
-  // Опыты
-  {
-  lblFirst.Caption:=cws;
-  lblSecond.Caption:=IterateUTF8Characters(cws);
-  c4s:=WideStringToUCS4String(cws);
-  c:=UCS4StringToUnicodeString(c4s);
-  lblSecond.Caption:=IterateUTF8Characters(c);
-  }
   lblFirst.Caption:=cs;
   lblSecond.Caption:=IterateUTF8Characters(cs);
 end;

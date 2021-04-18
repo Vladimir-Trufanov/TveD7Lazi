@@ -30,7 +30,7 @@ begin
   for i:=0 to len-1 do begin
     Result+=Format('%2.2x ',[p^[i]]);
   end;
-  Result:=Trim(Result);
+  //Result:=Trim(Result);
 end;
 
 // Получить наименование каталога, с которого запущена программа

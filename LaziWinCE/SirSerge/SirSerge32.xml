@@ -4,7 +4,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="C:\TveD7Lazi\LaziWinCE\LaziStrings32"/>
+      <Filename Value="C:\TveD7Lazi\LaziWinCE\SirSerge32"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

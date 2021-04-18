@@ -3,7 +3,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/LaziWinCE/LaziStringsCE"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/LaziWinCE/SirSerge"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

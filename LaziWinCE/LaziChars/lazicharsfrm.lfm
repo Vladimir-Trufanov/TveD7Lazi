@@ -55,4 +55,13 @@ object frmLaziChars: TfrmLaziChars
     OnClick = Button1Click
     TabOrder = 3
   end
+  object Button2: TButton
+    Left = 664
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
 end

@@ -1,6 +1,6 @@
 program LaziChars;
 
-{$mode objfpc}{$H+}
+{$mode objfpc}{$H+}{$codepage UTF8}
 
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}

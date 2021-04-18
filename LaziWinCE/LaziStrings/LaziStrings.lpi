@@ -57,11 +57,11 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="LaziStrings32"/>
+      <Filename Value="C:\TveD7Lazi\LaziWinCE\LaziStrings32"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      <UnitOutputDirectory Value="C:\TveD7Lazi\LaziWinCE\out32"/>
     </SearchPaths>
     <Linking>
       <Debugging>

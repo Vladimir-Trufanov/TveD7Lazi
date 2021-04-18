@@ -4,11 +4,11 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="LaziWin32"/>
+      <Filename Value="C:\TveD7Lazi\LaziWinCE\LaziWin32"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      <UnitOutputDirectory Value="C:\TveD7Lazi\LaziWinCE\out32"/>
     </SearchPaths>
     <Linking>
       <Debugging>

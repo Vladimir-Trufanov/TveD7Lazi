@@ -20,8 +20,9 @@
     </MacroValues>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
-      <SharedMatrixOptions Count="1">
+      <SharedMatrixOptions Count="2">
         <Item1 ID="997297216121" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="wince"/>
+        <Item2 ID="473841558498" Type="IDEMacro" MacroName="LCLWidgetType" Value="win32"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
@@ -60,12 +61,12 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/SirSerge"/>
+      <Filename Value="C:/ForWinCE/WinCE Emulator/SDFlash/LaziWinCE/SirSerge"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="C:/LazarusWinCE/lcl/interfaces/wince/;../TLaziTools/TLoger"/>
-      <UnitOutputDirectory Value="C:/TveD7Lazi/MagicPoint/out"/>
+      <UnitOutputDirectory Value="C:/TveD7Lazi/LaziWinCE/outCE"/>
       <SrcPath Value="$(LazarusDir)/lcl;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)"/>
     </SearchPaths>
     <Parsing>

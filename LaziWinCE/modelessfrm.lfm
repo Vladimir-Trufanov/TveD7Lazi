@@ -3,7 +3,7 @@ object frmModeless: TfrmModeless
   Height = 300
   Top = 171
   Width = 669
-  Caption = 'НЕМОДАЛЬНАЯ ФОРМА'
+  Caption = 'Поиск, показ и закрытие окон в немодальной форме'
   ClientHeight = 300
   ClientWidth = 669
   DesignTimePPI = 120

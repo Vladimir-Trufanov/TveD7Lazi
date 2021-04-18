@@ -1,3 +1,13 @@
+// FPC-3.2.0,LCL-2.0.12, WIN10\CE                       *** ModeLessFrm.pas ***
+
+// ****************************************************************************
+// *      Проверить поиск, показ и закрытие окон в Windows10 и WindowsCE      *
+// ****************************************************************************
+
+//                                                   Автор:       Труфанов В.Е.
+//                                                   Дата создания:  30.03.2021
+// Copyright © 2021 TVE                              Посл.изменение: 18.04.2021
+
 unit ModeLessFrm;
 
 {$mode objfpc}{$H+}{$codepage UTF8}
@@ -7,20 +17,20 @@ interface
 uses
   lconvencoding, Windows,
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs,
-	ComCtrls, StdCtrls, Grids;
+  ComCtrls, StdCtrls, Grids;
 
 type
   TMyActionForm = function(Form:HWnd):PWideChar;
 
-	{ TfrmModeless }
+{ TfrmModeless }
 
-  TfrmModeless = class(TForm)
-		btnFindWindow: TButton;
-		btnCloseMainWindow: TButton;
-		Button1: TButton;
-		StringGrid1: TStringGrid;
-		// Найти окно
-    procedure btnFindWindowClick(Sender: TObject);
+TfrmModeless = class(TForm)
+  btnFindWindow: TButton;
+  btnCloseMainWindow: TButton;
+  Button1: TButton;
+  StringGrid1: TStringGrid;
+  // Найти окно
+  procedure btnFindWindowClick(Sender: TObject);
     // Закрыть главное окно
     procedure btnCloseMainWindowClick(Sender: TObject);
 		procedure Button1Click(Sender: TObject);
@@ -47,7 +57,7 @@ begin
   l:=Windows.GetWindowTextLength(Form);
   SetLength(cs,l+1);
   //Windows.GetWindowText(Form,@cs[1],l+1);
-  Windows.GetWindowText(Form,cPWSTR,100);
+  //Windows.GetWindowText(Form,cPWSTR,100);
   //Result:=cs;
   Result:=cPWSTR;
 end;
@@ -80,12 +90,16 @@ var
   cs,cdelta:String;
   Form: HWnd;
   {$IFDEF wince}
-  WindowCaption: PWideChar;
+  WindowCaption:  PWideChar;
+  cWindowCaption: PWideChar=': окно найдено!';
   {$ELSE}
-  WindowCaption: PChar;
+  WindowCaption:  PChar;
+  cWindowCaption: PChar;
   {$ENDIF}
   p: PString;
 begin
+  cWindowCaption:=': окно найдено!';
+  {
   p:=@cs;
   // Задаем название заголовка окна и ищем окно
   WindowCaption:='frmLaziWinCE';
@@ -103,7 +117,9 @@ begin
   // Отмечем, что окно не найдено
   else begin
     Caption:='Окно '+WindowCaption+' не найдено!';
-	end;
+  end;
+  }
+  Caption:=cWindowCaption;
 end;
 // Закрыть главное окно
 procedure TfrmModeless.btnCloseMainWindowClick(Sender: TObject);
@@ -153,4 +169,7 @@ begin
 end;
 
 end.
+
+// ******************************************************** ModeLessFrm.pas ***
+
 
